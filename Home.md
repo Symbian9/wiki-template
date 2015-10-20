@@ -2,7 +2,7 @@ This is a wiki for the development of OpenOrienteering Mapper.
 
 ## Contents
 
-  * [[Notes on Target Systems]]
+  * Notes on [[Target Systems]]
   * [[Translation]]
   * [[Coding conventions]]
     * [C++11](Cxx11)
