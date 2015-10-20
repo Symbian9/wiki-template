@@ -1,45 +1,38 @@
-C++11 is now enabled and used for all builds of Mapper.
+C++11 is used for all builds of Mapper.
 
 This page documents the usage of C++11 features in OpenOrienteering Mapper. 
 
-  
+## Accepted Elements
 
+`auto`
 
-### Accepted Elements
+Initializer Lists
 
-auto 
+Nonmember `begin` and `end` 
 
-Initializer Lists (MSVC 11) 
+`nullptr`
 
-Nonmember begin and end (?) 
+`override` and final` 
 
-nullptr 
+Range-based `for-loop
 
-override and final (MSVC 11) 
+R-Value References and `std::move`
 
-Range-based for-loop (MSVC 11) 
+Smart Pointers, esp. `std::unique_ptr`
 
-Smart Pointers 
-
-static_assert 
-
-
-  
+`static_assert`
 
 
 ### Suggested Elements
 
-R-Value References, std::move 
-
 Unicode String Literals (MSVC support unknown) 
-
-  
 
 
 ### Known Issues
 
 Apple delivers C++11 with LLVM's Clang and libc++. This is the standard since Xcode 4.5. However, Apple does not provide libc++ for OS X 10.6 (Snow Leopard) which was released on 28 August 2009, but is still widely used. 
 
+MSCV implements some features only in version 11 or newer. However, MSVC is not supported at the moment.
 
 
 ## Weblinks
