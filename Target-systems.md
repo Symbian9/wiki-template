@@ -19,19 +19,21 @@ For unstable/upcoming release:
 
 Target System | CMake       | C++         | Qt          | Polyclipping | Proj.4      | Remark
 --------------|-------------|-------------|-------------|--------------|-------------|-------------
-Android       |             | gcc 4.8     | 5.5.1       | 6.1.3a       | 4.8.0       | local build
+Android       |             | gcc 4.8 :-1: | 5.5.1       | 6.1.3a       | 4.8.0       | local build
 Arch          | 3.3.2       | gcc 5.2.0   | 5.5.1       | 6.1.3a       | 4.9.1 :+1:  | OBS
 Debian 8.0    | 3.0.2       | gcc 4.9.2   | 5.3.2       | 6.1.3a       | 4.8.0       | OBS
 Fedora 21     | 3.0.2       | gcc 4.9.2   | 5.3.2       | 6.1.3a       | 4.8.0       | OBS
 Fedora 22     | 3.2.2       | gcc 5.1.1   | 5.4.1       | 6.1.3a       | 4.8.0       | OBS
-openSUSE 13.2 | 3.0.2       | gcc 4.8.3   | 5.3.2       | 6.1.3a       | 4.8.0       | OBS
+openSUSE 13.2 | 3.0.2       | gcc 4.8.3 :-1: | 5.3.2       | 6.1.3a       | 4.8.0       | OBS
 openSUSE Tumbleweed | 3.3.2 | gcc 5.1.1   | 5.5.0       | 6.1.3a       | 4.9.2 :+1:  | OBS
 OS X          |             | XCode 7.0   | 5.5.1       | 6.1.3a       | 4.8.0       | local build
-Ubuntu 14.04  | 2.8.12 :-1: | gcc 4.8.2   | 5.2.1 :-1:  | 6.1.3a       | 4.8.0       | OBS
+Ubuntu 14.04  | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1:  | 6.1.3a       | 4.8.0       | OBS
 Ubuntu 15.04  | 3.0.2       | gcc 4.9.2   | 5.4.1       | 6.1.3a       | 4.8.0       | OBS
 Ubuntu 15.10  | 3.2.2       | gcc 5.2.1   | 5.4.2       | 6.1.3a       | 4.9.1 :+1:  | OBS
 Windows       | 3.0.2       | gcc 5.2.0   | 5.5.1       | 6.1.3a       | 4.8.0       | OBS/openSUSE 13.2
 
+* Qt < 5.3 needs extra treatment in some places.
+* gcc < 4.9 does not have C++14 std::make_unique_ptr.
 
 ## Arch Linux
 
