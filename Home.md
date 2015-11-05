@@ -6,8 +6,8 @@ This is a wiki for the development of OpenOrienteering Mapper.
   * [[Translation]]
   * [[Coding conventions]]
     * [C++11](Cxx11)
-  * [API docs](http://oorienteering.sourceforge.net/api/) (on SF)
-    * [Code overview](http://oorienteering.sourceforge.net/api/code_overview.html) 
+  * [API docs](http://oorienteering.github.io/api-docs/mapper/)
+    * [Code overview](http://oorienteering.github.io/api-docs/mapper/code_overview.html) 
   * [[Import-Export Features]]
   * [[User interface design]]
   * [[OS X]] 
