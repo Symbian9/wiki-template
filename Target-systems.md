@@ -19,7 +19,7 @@ For unstable/upcoming release:
 
 Target System | CMake       | C++         | Qt          | Polyclipping | Proj.4      | Remark
 --------------|-------------|-------------|-------------|--------------|-------------|-------------
-Android       |             | gcc 4.8 :-1: | 5.5.1       | 6.1.3a       | 4.9.2 :+1:  | local build
+Android       |             | gcc 4.9     | 5.5.1       | 6.1.3a       | 4.9.2 :+1:  | local build
 Arch          | 3.3.2       | gcc 5.2.0   | 5.5.1       | 6.1.3a       | 4.9.1 :+1:  | OBS
 Debian 8.0    | 3.0.2       | gcc 4.9.2   | 5.3.2       | 6.1.3a       | 4.8.0       | OBS
 Fedora 21     | 3.0.2       | gcc 4.9.2   | 5.3.2       | 6.1.3a       | 4.8.0       | OBS
