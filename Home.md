@@ -1,4 +1,4 @@
-This is a wiki for the development of OpenOrienteering Mapper. 
+This is a wiki for the development of OpenOrienteering Mapper. The User Manual is at http://openorienteering.github.io/mapper-manual/, and it can be contributed to at https://github.com/OpenOrienteering/mapper-manual/.
 
 ## Contents
 
