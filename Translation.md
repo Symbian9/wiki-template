@@ -50,20 +50,21 @@ In the current binary release 0.5.3, including post-release translation updates,
 
 Translation efforts should first focus on standard user interface items such as menu entries, window titles, button labels etc. 
 
-Translation is done with [Qt Linguist](http://qt-project.org/doc/qt-5.0/qtlinguist/linguist-translators.html). It can be installed as selectable component in the [Qt SDK installer](http://qt-project.org/downloads), but we provide a stand-alone download in the translations subdirectory of the 0.5.0 release. For every supported language, there is a .ts-file in the [translations directory](https://sourceforge.net/p/oorienteering/code/ci/master/tree/translations/), which contains both the strings to be translated and the actual translations. 
+Translation is done with [Qt Linguist](http://doc.qt.io/qt-5/linguist-translators.html). It can be installed as selectable component in the [Qt SDK installer](http://www.qt.io/download-open-source/), but we provide a [stand-alone download](https://sourceforge.net/projects/oorienteering/files/Mapper/0.5.96/translations/). For every supported language, there is a .ts-file in the [translations directory](https://github.com/OpenOrienteering/mapper/tree/master/translations/), which contains both the strings to be translated and the actual translations. 
 
 At the moment, there are app. 1100 translatable strings. 
 
 ### New Languages
 
-To start the translation for a new language, you can start with the [template .ts-file](https://sourceforge.net/p/oorienteering/code/ci/master/tree/translations/OpenOrienteering_template.ts?format=raw). You can submit the new translation in a bug report. 
+To start the translation for a new language, you can start with the [template .ts-file](https://github.com/OpenOrienteering/mapper/tree/master/translations/OpenOrienteering_template.ts). You can submit the new translation with a pull request or an issue on [Github](https://github.com/OpenOrienteering/mapper/). 
 
 ### Updating Translations
 
-To update or modify an existing translation you can download the latest version from the [translations directory](https://sourceforge.net/p/oorienteering/code/ci/master/tree/translations/) or use git to checkout the source code including the translations directory: 
-    
-      git clone git://git.code.sf.net/p/oorienteering/code oorienteering
-    
+To update or modify an existing translation you can download the latest version from the [translations directory](https://github.com/OpenOrienteering/mapper/tree/master/translations/) or use git to checkout the source code including the translations directory: 
+
+      git clone https://github.com/OpenOrienteering/mapper.git
+
+You can submit the updated translation with a pull request or an issue on [Github](https://github.com/OpenOrienteering/mapper/). 
 
 When the developers add new strings to the source code, these strings have to be added to the the .ts-files. This is done by calling the lupdate program with the proper sources and targets. For platforms where /bin/sh is available a script translations/update-translations.sh is provided which automates that process. 
 
@@ -77,7 +78,7 @@ To test your translation, you must generate a .qm file and make it available to 
 
 Some strings in the user interface come from the Qt library which is used by Mapper. Examples are the standard dialog buttons (OK, Cancel, Help, etc.) which are used in many places such as the settings dialog. 
 
-Unfortunately, the library's translation is rather incomplete at the moment. So we provide another template which can be used to provide a minimal translation of Qt. The download is here: [template .ts-file](https://sourceforge.net/p/oorienteering/code/ci/master/tree/translations/qt_template.ts?format=raw)
+Unfortunately, the library's translation is rather incomplete at the moment. So we provide another template which can be used to provide a minimal translation of Qt. The download is here: [template .ts-file](https://github.com/OpenOrienteering/mapper/tree/master/translations/qt_template.ts?format=raw)
 
   
 
