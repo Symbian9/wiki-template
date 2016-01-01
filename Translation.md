@@ -3,48 +3,45 @@ OpenOrienteering Mapper supports localization. This page gives an overview and h
 
 ## Present state
 
-For the coming release 0.6.0, the user interface is translated to the following languages (as of release 0.5.93):
+For the next release 0.6.1, the user interface is translated to the following languages:
 
-  * **Čeština (Czech - cs)**: complete
-    1194 translations (1194 finished and 0 unfinished), 2 untranslated source texts
-  * **Deutsch (German - de)**: complete
-    1192 translations (1192 finished and 0 unfinished), 2 untranslated source texts 
-  * **English (en)**: complete
-    (Not a translation, but the language used in the source code.)
-  * **español de España (Spanish - es)**: incomplete
-    1030 translations (994 finished and 36 unfinished), 201 untranslated source texts
-  * **Français (French - fr)**: incomplete
-    1030 translations (994 finished and 36 unfinished), 201 untranslated source texts 
-  * **日本語 (Japanese - ja)**: incomplete
-    971 translations (938 finished and 33 unfinished), 265 untranslated source texts
-  * **Latviešu (Latvian - lv)**: incomplete
-    1031 translations (994 finished and 37 unfinished), 200 untranslated source texts
-  * **norsk bokmål (Norwegian Bokmål - nb)**: complete
-    1241 translation(s) (1241 finished and 0 unfinished) 
-  * **polski (Polish - pl)**: incomplete
-    1018 translations (963 finished and 55 unfinished), 212 untranslated source texts
-  * **suomi (Finnish - fi)**: incomplete
-    1119 translations (1087 finished and 32 unfinished), 122 untranslated source texts
-  * **svenska (Swedish - sv)**: incomplete, may be removed!
-    643 translations (539 finished and 104 unfinished), 569 untranslated source texts
-  * **українська мова (Ukrainian - uk)**: incomplete, may be removed!
-    667 translations (542 finished and 125 unfinished), 548 untranslated source texts
+  * **Čeština (Czech - cs)**: incomplete :star::star::star:
+    <br/>1173 translations (1167 finished and 8 unfinished), 66 untranslated source texts
+  * **Deutsch (German - de)**: nearly complete :star::star::star::star:
+    <br/>1235 translations (1235 finished and 2 unfinished), 4 untranslated source texts
+    <br/>@dg0yt
+  * **English (en)**: nearly complete (plural forms only) :star::star::star::star:
+    <br/>3 translations (3 finished and 0 unfinished), 1 untranslated source text
+    <br/>@dg0yt
+  * **Español de España (Spanish - es)**: incomplete :star::star::star:
+    <br/>1172 translations (1167 finished and 7 unfinished), 67 untranslated source texts
+  * **Suomi (Finnish - fi)**: incomplete :star::star::star:
+    <br/>1056 translations (1018 finished and 38 unfinished), 183 untranslated source texts 
+  * **Français (French - fr)**: incomplete :star::star:
+    <br/>979 translations (938 finished and 41 unfinished), 260 untranslated source texts 
+  * **Magyar (Hungarian - hu)**: incomplete :star::star::star:
+    <br/>1192 translations (1159 finished and 33 unfinished), 47 untranslated source texts 
+  * **Italiano (Italian - it)**: incomplete :star::star::star:
+    <br/>1199 translations (1193 finished and 6 unfinished), 40 untranslated source texts 
+  * **日本語 (Japanese - ja)**: incomplete :star::star:
+    <br/>922 translations (880 finished and 6 unfinished), 317 untranslated source texts
+  * **Latviešu (Latvian - lv)**: incomplete :star::star:
+    <br/>980 translations (938 finished and 42 unfinished), 259 untranslated source texts
+  * **Norsk bokmål (Norwegian Bokmål - nb)**: nearly complete :star::star::star::star:
+    <br/>1236 translation(s) (1233 finished and 3 unfinished), 3 untranslated source texts
+    <br/>@cschive
+  * **Polski (Polish - pl)**: incomplete :star::star:
+    <br/>968 translations (908 finished and 60 unfinished), 271 untranslated source texts
+  * **Русский (Russian - ru)**: nearly complete :star::star::star::star:
+    <br/>1237 translations (1235 finished and 2 unfinished), 2 untranslated source texts
+    <br/>@sembruk
+  * **Svenska (Swedish - sv)**: nearly complete :star::star::star::star:
+    <br/>1235 translations (1232 finished and 3 unfinished), 4 untranslated source texts
+    <br/>@Abbe98
+  * **Українська мова (Ukrainian - uk)**: nearly complete :star::star::star::star:
+    <br/>1234 translations (771 finished and 463 unfinished), 5 untranslated source texts
+    <br/>@yevhenmazur
 
-
-
-In the current binary release 0.5.3, including post-release translation updates, the user interface is translated to the following languages: 
-
-  * **Čeština (Czech - cs)**: complete (100 %) 
-  * **Deutsch (German - de)**: complete (100 %) 
-  * **English (en)**: not a translation, but the language used in the source code 
-  * **español de España (Spanish - es)**: complete (95%) 
-  * **Français (French - fr)**: complete (95%) 
-  * **日本語 (Japanese - ja)**: incomplete (86%) 
-  * **Latviešu (Latvian - lv)**: complete (95%) 
-  * **norsk bokmål (Norwegian Bokmål - nb)**: complete (98%) 
-  * **polski (Polish - pl)**: complete (92%) 
-  * **svenska (Swedish - sv)**: incomplete (51%) 
-  * **українська мова (Ukrainian - uk)**: incomplete (51%) 
 
 ## Information for Translators
 
@@ -52,7 +49,7 @@ Translation efforts should first focus on standard user interface items such as 
 
 Translation is done with [Qt Linguist](http://doc.qt.io/qt-5/linguist-translators.html). It can be installed as selectable component in the [Qt SDK installer](http://www.qt.io/download-open-source/), but we provide a [stand-alone download](https://sourceforge.net/projects/oorienteering/files/Mapper/0.5.96/translations/). For every supported language, there is a .ts-file in the [translations directory](https://github.com/OpenOrienteering/mapper/tree/master/translations/), which contains both the strings to be translated and the actual translations. 
 
-At the moment, there are app. 1100 translatable strings. 
+At the moment, there are app. 1240 translatable strings. 
 
 ### New Languages
 
