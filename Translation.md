@@ -53,7 +53,7 @@ At the moment, there are app. 1240 translatable strings.
 
 ### New Languages
 
-To start the translation for a new language, you can start with the [template .ts-file](https://github.com/OpenOrienteering/mapper/tree/master/translations/OpenOrienteering_template.ts). You can submit the new translation with a pull request or an issue on [Github](https://github.com/OpenOrienteering/mapper/). 
+To start the translation for a new language, you can start with the [template .ts-file](https://raw.githubusercontent.com/OpenOrienteering/mapper/master/translations/OpenOrienteering_template.ts). You can submit the new translation with a pull request or an issue on [Github](https://github.com/OpenOrienteering/mapper/). 
 
 ### Updating Translations
 
