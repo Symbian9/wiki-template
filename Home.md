@@ -1,4 +1,4 @@
-This is a wiki for the development of OpenOrienteering Mapper. The User Manual is at http://openorienteering.github.io/mapper-manual/, and it can be contributed to at https://github.com/OpenOrienteering/mapper-manual/.
+This is a wiki for the development of OpenOrienteering Mapper. The User Manual is at http://www.openorienteering.org/mapper-manual/, and it can be contributed to at https://github.com/OpenOrienteering/mapper-manual/.
 
 ## Contents
 
@@ -6,8 +6,8 @@ This is a wiki for the development of OpenOrienteering Mapper. The User Manual i
   * [[Translation]]
   * [[Coding conventions]]
     * [C++11](Cxx11)
-  * [API docs](http://openorienteering.github.io/api-docs/mapper/)
-    * [Code overview](http://openorienteering.github.io/api-docs/mapper/code_overview.html) 
+  * [API docs](http://www.openorienteering.org/api-docs/mapper/)
+    * [Code overview](http://www.openorienteering.org/api-docs/mapper/code_overview.html) 
   * [[Import-Export Features]]
   * [[User interface design]]
   * [[OS X]] 
@@ -19,7 +19,7 @@ This is a wiki for the development of OpenOrienteering Mapper. The User Manual i
 
 ## Links
 
-  * [OpenOrienteering homepage](http://oorienteering.org/)
+  * [OpenOrienteering homepage](http://www.openorienteering.org/)
   * [Project page on Github](http://github.com/OpenOrienteering/mapper/)
   * [Old project page on Sourceforge](http://sourceforge.net/projects/oorienteering/)
 
