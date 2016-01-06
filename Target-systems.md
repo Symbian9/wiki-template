@@ -35,7 +35,7 @@ Windows       | 3.0.2       | gcc 5.2.0   | 5.5.1       | 6.1.3a       | 4.9.2 :
 
 * Qt < 5.3 needs extra treatment in some places.
 * gcc < 4.9 does not have C++14 ```std::make_unique```.
-* CMake < 3.0 needs ```windres``` workaround in ```src/CMakeLists.txt```.
+* CMake < 3.0 needs a ```windres``` workaround in ```src/CMakeLists.txt``` when locally cross-compiling for windows.
 
 ## Arch Linux
 
