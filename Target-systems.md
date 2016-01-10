@@ -25,8 +25,8 @@ Debian 8.0    | 3.0.2       | gcc 4.9.2   | 5.3.2       | 6.1.3a       | 4.8.0  
 Fedora 22     | 3.2.2       | gcc 5.1.1   | 5.4.1       | 6.1.3a       | 4.8.0       | OBS
 Fedora 23     | 3.3.2       | gcc 5.1.1   | 5.5.0       | 6.1.3a       | 4.9.1 :+1:  | OBS
 openSUSE 13.2 | 3.0.2       | gcc 4.8.3 :-1: | 5.3.2    | 6.1.3a       | 4.8.0       | OBS
-openSUSE Leap 42.1  | 3.3.2 | gcc 4.8.5 :-1: | 5.5.0    | 6.1.3a       | 4.9.2 :+1:  | OBS
-openSUSE Tumbleweed | 3.3.2 | gcc 5.1.1   | 5.5.0       | 6.1.3a       | 4.9.2 :+1:  | OBS
+openSUSE Leap 42.1  | 3.3.2 | gcc 4.8.5 :-1:, gcc 5.2.1 | 5.5.0    | 6.1.3a       | 4.9.2 :+1:  | OBS
+openSUSE Tumbleweed | 3.3.2 | gcc 5.1.1, gcc 5.2.1   | 5.5.0       | 6.1.3a       | 4.9.2 :+1:  | OBS
 OS X          |             | XCode 7.0   | 5.5.1       | 6.1.3a       | 4.9.2 :+1:  | local build
 Ubuntu 14.04  | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1:  | 6.1.3a    | 4.8.0       | OBS
 Ubuntu 15.04  | 3.0.2       | gcc 4.9.2   | 5.4.1       | 6.1.3a       | 4.8.0       | OBS
