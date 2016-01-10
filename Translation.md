@@ -7,11 +7,11 @@ For the next release 0.6.1, the user interface is translated to the following la
 
   * **Čeština (Czech - cs)**: incomplete :star::star::star:
     <br/>1173 translations (1167 finished and 8 unfinished), 66 untranslated source texts
-  * **Deutsch (German - de)**: nearly complete :star::star::star::star:
-    <br/>1235 translations (1235 finished and 2 unfinished), 4 untranslated source texts
+  * **Deutsch (German - de)**: complete :star::star::star::star::star:
+    <br/>1239 translations (1239 finished and 0 unfinished)
     <br/>@dg0yt
-  * **English (en)**: nearly complete (plural forms only) :star::star::star::star:
-    <br/>3 translations (3 finished and 0 unfinished), 1 untranslated source text
+  * **English (en)**: nearly complete (plural forms only) :star::star::star::star::star:
+    <br/>4 translations (4 finished and 0 unfinished)
     <br/>@dg0yt
   * **Español de España (Spanish - es)**: incomplete :star::star::star:
     <br/>1172 translations (1167 finished and 7 unfinished), 67 untranslated source texts
