@@ -3,7 +3,9 @@ OpenOrienteering Mapper supports localization. This page gives an overview and h
 
 ## Present state
 
-For the next release 0.6.1, the user interface is translated to the following languages:
+### Mapper 0.6.1 (current release)
+
+The user interface is translated to the following languages:
 
   * **Čeština (Czech - cs)**: incomplete :star::star::star:
     <br/>1173 translations (1167 finished and 8 unfinished), 66 untranslated source texts
@@ -34,6 +36,47 @@ For the next release 0.6.1, the user interface is translated to the following la
     <br/>968 translations (908 finished and 60 unfinished), 271 untranslated source texts
   * **Русский (Russian - ru)**: nearly complete :star::star::star::star:
     <br/>1237 translations (1235 finished and 2 unfinished), 2 untranslated source texts
+    <br/>@sembruk
+  * **Svenska (Swedish - sv)**: nearly complete :star::star::star::star:
+    <br/>1235 translations (1232 finished and 3 unfinished), 4 untranslated source texts
+    <br/>@Abbe98
+  * **Українська мова (Ukrainian - uk)**: nearly complete :star::star::star::star:
+    <br/>1234 translations (771 finished and 463 unfinished), 5 untranslated source texts
+    <br/>@yevhenmazur
+
+### Next release (Mapper 0.6.2)
+
+The user interface is translated to the following languages:
+
+  * **Čeština (Czech - cs)**: incomplete :star::star::star:
+    <br/>1173 translations (1167 finished and 8 unfinished), 66 untranslated source texts
+  * **Deutsch (German - de)**: complete :star::star::star::star::star:
+    <br/>1239 translations (1239 finished and 0 unfinished)
+    <br/>@dg0yt
+  * **English (en)**: nearly complete (plural forms only) :star::star::star::star::star:
+    <br/>4 translations (4 finished and 0 unfinished)
+    <br/>@dg0yt
+  * **Español de España (Spanish - es)**: incomplete :star::star::star:
+    <br/>1172 translations (1167 finished and 7 unfinished), 67 untranslated source texts
+  * **Suomi (Finnish - fi)**: incomplete :star::star::star:
+    <br/>1056 translations (1018 finished and 38 unfinished), 183 untranslated source texts 
+  * **Français (French - fr)**: incomplete :star::star:
+    <br/>979 translations (938 finished and 41 unfinished), 260 untranslated source texts 
+  * **Magyar (Hungarian - hu)**: incomplete :star::star::star:
+    <br/>1192 translations (1159 finished and 33 unfinished), 47 untranslated source texts 
+  * **Italiano (Italian - it)**: incomplete :star::star::star:
+    <br/>1199 translations (1193 finished and 6 unfinished), 40 untranslated source texts 
+  * **日本語 (Japanese - ja)**: incomplete :star::star:
+    <br/>922 translations (880 finished and 6 unfinished), 317 untranslated source texts
+  * **Latviešu (Latvian - lv)**: incomplete :star::star:
+    <br/>980 translations (938 finished and 42 unfinished), 259 untranslated source texts
+  * **Norsk bokmål (Norwegian Bokmål - nb)**: nearly complete :star::star::star::star::star:
+    <br/>1238 translation(s) (1238 finished and 0 unfinished), 1 untranslated source text
+    <br/>@cschive, @kjetilk
+  * **Polski (Polish - pl)**: incomplete :star::star:
+    <br/>968 translations (908 finished and 60 unfinished), 271 untranslated source texts
+  * **Русский (Russian - ru)**: complete :star::star::star::star::star:
+    <br/>1239 translations (1239 finished and 0 unfinished)
     <br/>@sembruk
   * **Svenska (Swedish - sv)**: nearly complete :star::star::star::star:
     <br/>1235 translations (1232 finished and 3 unfinished), 4 untranslated source texts
