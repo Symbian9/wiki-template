@@ -1,1 +1,1 @@
-Moved to: http://oorienteering.sourceforge.net/api/code_overview.html 
+Moved to: http://www.openorienteering.org/api-docs/mapper/code_overview.html 
