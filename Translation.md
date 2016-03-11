@@ -50,6 +50,7 @@ The user interface is translated to the following languages:
 
   * **Čeština (Czech - cs)**: nearly complete :star::star::star::star:
     <br/>1237 translations (1235 finished and 2 unfinished), 9 untranslated source texts
+    <br/>@pafri
   * **Deutsch (German - de)**: nearly complete :star::star::star::star:
     <br/>1237 translations (1235 finished and 2 unfinished), 9 untranslated source texts
     <br/>@dg0yt
@@ -61,7 +62,8 @@ The user interface is translated to the following languages:
   * **Suomi (Finnish - fi)**: incomplete :star::star::star:
     <br/>1055 translations (1016 finished and 39 unfinished), 191 untranslated source texts 
   * **Français (French - fr)**: nearly complete :star::star::star::star:
-    <br/>1237 translations (1235 finished and 2 unfinished), 9 untranslated source texts 
+    <br/>1237 translations (1235 finished and 2 unfinished), 9 untranslated source texts
+    <br/>@ogeo-project
   * **Magyar (Hungarian - hu)**: incomplete :star::star::star:
     <br/>1190 translations (1156 finished and 34 unfinished), 56 untranslated source texts 
   * **Italiano (Italian - it)**: incomplete :star::star::star:
