@@ -44,7 +44,7 @@ The user interface is translated to the following languages:
     <br/>1234 translations (771 finished and 463 unfinished), 5 untranslated source texts
     <br/>@yevhenmazur
 
-### Next release (Mapper 0.6.2)
+### Next release (Mapper 0.6.2) and development snapshot (2016-03-11)
 
 The user interface is translated to the following languages:
 
