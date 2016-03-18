@@ -3,6 +3,10 @@ OpenOrienteering Mapper supports localization. This page gives an overview and h
 
 ## Present state
 
+### Translation issues
+
+[All issues with label translation](https://github.com/OpenOrienteering/mapper/labels/translations)
+
 ### Mapper 0.6.1 (current release)
 
 The user interface is translated to the following languages:
