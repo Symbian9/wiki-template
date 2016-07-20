@@ -24,6 +24,7 @@ The user interface is translated to the following languages:
   * Latviešu (Latvian - lv) [![Translation status](https://hosted.weblate.org/widgets/openorienteering/lv/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/lv/)
   * Norsk bokmål (Norwegian Bokmål - nb) [![Translation status](https://hosted.weblate.org/widgets/openorienteering/nb/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/nb/)
   * Polski (Polish - pl) [![Translation status](https://hosted.weblate.org/widgets/openorienteering/pl/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/pl/)
+  * Portuguese (Brazil - pt_BR) [![Translation status](https://hosted.weblate.org/widgets/openorienteering/pt_BR/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/pt_BR/)
   * Русский (Russian - ru) [![Translation status](https://hosted.weblate.org/widgets/openorienteering/ru/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/ru/)
   * Svenska (Swedish - sv) [![Translation status](https://hosted.weblate.org/widgets/openorienteering/sv/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/sv/)
   * Українська мова (Ukrainian - uk) [![Translation status](https://hosted.weblate.org/widgets/openorienteering/uk/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/uk/)
