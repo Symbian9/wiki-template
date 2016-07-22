@@ -42,9 +42,15 @@ Translation efforts should first focus on standard user interface items such as 
 <img src="https://hosted.weblate.org/widgets/openorienteering/-/287x66-grey.png" alt="Translation status" />
 </a>
 
-Weblate is the most convenient way to start contributing translations. However, there is no easy way to test the translations until they eventually arrive in an unstable build.
+Editing translations online on [Weblate](https://hosted.weblate.org/projects/openorienteering/mapper/) is the most convenient way to start contributing. You can register/login with your Github account. Weblate provides a number of checks and other interesting features.
+
+However, there is no easy way to test the translations until they eventually arrive in an unstable build.
+
+----
 
 ### Translation offline with Qt Linguist
+
+*Attention: As long as Weblate produces quite different output than the Qt tools (https://github.com/nijel/weblate/issues/1118), it is not recommended to use Qt Linguist: It will lead to some noise in the git change log.*
 
 [Qt Linguist](http://doc.qt.io/qt-5/linguist-translators.html) can be installed as part of the [Qt SDK installer](http://www.qt.io/download-open-source/) or as part of Linux distributions' Qt5 development tools packages (e.g. qttools5-dev-tools). Linguist is also included in our [unstable Windows package](http://download.opensuse.org/repositories/home:/dg0yt/Windows/).
 
