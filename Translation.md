@@ -43,7 +43,7 @@ Translation efforts should first focus on standard user interface items such as 
 <img src="https://hosted.weblate.org/widgets/openorienteering/-/287x66-grey.png" alt="Translation status" />
 </a>
 
-Editing translations online on [Weblate](https://hosted.weblate.org/projects/openorienteering/mapper/) is the most convenient way to start contributing. You can register/login with your Github account. Weblate provides a number of checks and other interesting features.
+Editing translations online on [Weblate](https://hosted.weblate.org/projects/openorienteering/mapper/) is the most convenient way to start contributing. You can register/login with your Github account. Weblate provides a number of checks and other interesting features. There is an [online translators guide](https://docs.weblate.org/en/latest/user/).
 
 However, there is no easy way to test the translations until they eventually arrive in an unstable build.
 
