@@ -49,7 +49,9 @@ You can easily register/login with your Github account. Registered users can cre
 
 When saving a translation, translators may add a commit message. However you should not use this field unless you know what you are doing. These messages are recorded more or less permanently in the project's revision history.
 
-Unfortunately, there is no easy way to test the translations until they eventually arrive in an unstable build. 
+Unfortunately, there is no easy way to test the translations until they eventually arrive in an unstable build.
+
+OpenOrienteering uses Weblate's free hosting offer for open source projects. You may [donate to Weblate](https://weblate.org/donate/) to support both projects.
 
 ----
 
