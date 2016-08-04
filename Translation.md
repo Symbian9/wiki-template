@@ -44,12 +44,12 @@ Translation efforts should first focus on standard user interface items such as 
 <img src="https://hosted.weblate.org/widgets/openorienteering/-/287x66-grey.png" alt="Translation status" />
 </a>
 
-Editing translations online on [Weblate](https://hosted.weblate.org/projects/openorienteering/mapper/) is the most convenient way to start contributing. Weblate provides a number of checks and other interesting features. There is an [online translators guide](https://docs.weblate.org/en/latest/user/). You can easily register/login with your Github account.
+Editing translations online on [Weblate](https://hosted.weblate.org/projects/openorienteering/mapper/) is the most convenient way to start contributing. Weblate provides a number of checks and other interesting features. There is an [online translators guide](https://docs.weblate.org/en/latest/user/).
 
- * Even if not a registered user, you may **add suggestions** which will eventually be accepted or rejected by registered users. 
+ * Even if not a registered user, you may **add suggestions** which will eventually be accepted or rejected by registered users.
+ * You can easily register and login with your Github account. Registered users may set their language and **subscribe for the OpenOrienteering project and for notifications**. This needs to be done in the individual Weblate profile.
  * Registered users can **create and edit translations**, and accept suggestions. Please pay attention to the comments, suggestions and checks for each item.
  * Registered users may **add new comments** to either the source string (e.g. suggestions to fix typos and change punctuation, or requests for clarification), or to the translation for a particular language (discussion with or documentation for other translators).
- * Registered users may set their language and and **subscribe for projects and notifications**. This needs to be done in the individual Weblate profile.
  * When saving a translation, translators may add a commit message. However you should not use this field unless you know what you are doing. These messages are recorded more or less permanently in the project's revision history.
 
 Unfortunately, there is no easy way to test the translations until they eventually arrive in an unstable build.
