@@ -1,4 +1,5 @@
 ![](https://img.shields.io/github/downloads/openorienteering/Mapper/total.svg)
+![](https://img.shields.io/badge/since-v0.6.0-lightgrey.svg)
 
 These are statistics from Github Releases only. There are no download statistics from OBS (Linux and Windows packages).
 
