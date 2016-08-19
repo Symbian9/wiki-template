@@ -69,5 +69,5 @@ Windows       | 3.0.2       | gcc 5.3.1   | 5.5.1       | 6.1.3a       | 4.9.2  
 
 - [Ubuntu Packages](http://packages.ubuntu.com/)
   - [Mapper in Launchpad](https://launchpad.net/ubuntu/+source/openorienteering-mapper)
-
+  - [Mapper screenshots page](https://screenshots.debian.net/package/openorienteering-mapper)
 
