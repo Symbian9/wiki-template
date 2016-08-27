@@ -33,9 +33,11 @@ Android has different types of external storage, and there may be different volu
 
 So although called "external", this storage may include emulated storage which actually resides on internal storage.
 
-Full write access to external storage (including read access) is subject to the `WRITE_EXTERNAL_STORAGE` permission (since Android 1.0). Pure read access became possible with the `READ_EXTERNAL_STORAGE` permission (since Android 4.1).
+Since Android 1.0, full access to the external storage given by [`Environment.getExternalStorageDirectory`](https://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()) is subject to the `WRITE_EXTERNAL_STORAGE` permission (since Android 1.0). 
 
 [`Environment.getExternalStoragePublicDirectory`](https://developer.android.com/reference/android/os/Environment.html#getExternalStoragePublicDirectory(java.lang.String)) (since Android 2.2) returns a top-level external storage directory for placing files of a particular type.
+
+Android 4.1 added permission `READ_EXTERNAL_STORAGE` for pure read access tot the external storage.
 
 Android 4.2 added multi-user support. External storage concepts were adjusted in the following way:
 - Primary external storage is specific to each user and not accessible for other user. `/sdcard` can be used to access to primary external storage (whether SD card or not). `WRITE_EXTERNAL_STORAGE` grants access to the whole volume.
@@ -67,6 +69,32 @@ If this folder was not found in the previous locations, it continues with the fo
 
 All map files found in OOMapper folders in the examined locations are displayed to the user.
 
-## Problems and New Approaches for Mapper
+## Current Situation
 
-- [getExternalStoragePublicDirectory](https://developer.android.com/reference/android/os/Environment.html#getExternalStoragePublicDirectory(java.lang.String))
+- Mapper may not find all relevant storage volumes on various version of Android (issue #745).
+  - Mapper relies on undocumented environment variables and fixed fallback paths for locating map files.
+  - Environment variable `SECONDARY_STORAGE` was removed in Android 6.0, internally using StorageVolume instead. 
+    However, StorageVolume and a method to get a list of all volumes was made public only in Android 7.0.
+
+- Mapper may be unable to write to secondary storage volumes.
+  - The `WRITE_EXTERNAL_STORAGE` permission grants access to the primary volume only since Android 4.2.
+  - The user may not notice the issue when working on a map before trying to save the file (or getting an auto-save error).
+  - This may be the reason for problems reported by some users.
+
+- The same volume may appear in different paths, leading to files being listed multiple times. (This is not a reported issue but was found when trying to scan more locations.)
+
+- There is no problem (yet, Android 6.0) with finding and accessing (`WRITE_EXTERNAL_STORAGE`) the primary storage. However, the environment variable `EXTERNAL_STORAGE` is undocumented, in contrast to the API method [`Environment.getExternalStorageDirectory`](https://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()) and the `/sdcard` path (which is used by Mapper as a fallback, at least).
+
+## Possible Changes
+
+- The primary external directory can be determined through documented API.
+
+- Scanning more native paths (such as all subdirs of `/storage` and `mnt`) results in multiple listing of files. While that issue might be addressed, the problem of getting write access remains.
+
+- Using the volumes provided by [`QStorageInfo::mountedVolumes`](http://doc.qt.io/qt-5/qstorageinfo.html#mountedVolumes) turned out to be likewise incomplete and inconsistent across devices. Again, the problem of getting write access remains.
+
+- Native write access to folders on secondary storage volumes will be possible only after getting permission through Android 7.0 through Java APIs (Scoped Directory Access). This excludes nearly all current devices.
+
+- The Storage Access Frame gives access to a broad range of providers through Android 4.4 Java API. This might be powerful but is quite complex for a native app such as Mapper.
+
+- Syntesized Permissions exists since Android 4.4 at least and requires no extra effort for write access to selected directories.
