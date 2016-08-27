@@ -21,7 +21,7 @@ These requirements are fulfilled by Android's "External Storage" which is also o
 
 ## External Storage on Android
 
-*Cf. https://source.android.com/devices/storage/*
+*Cf. https://source.android.com/devices/storage/, https://possiblemobile.com/2014/03/android-external-storage/*
 
 Android has different types of external storage, and there may be different volumes.
 
@@ -44,11 +44,11 @@ Android 4.2 added multi-user support. External storage concepts were adjusted in
 - For optimization, large OBB files may be shared between multiple users in the `Android/obb` directory.
 - On secondary external storage, apps may only write to package-specific directories as allowed by synthesized permissions (see below, although documented as "since Android 4.4").
 
-Android 4.4 introduced synthesized (implicit) permissions for apps to access data in `Android/data/PACKAGENAME`.
+Android 4.4 introduced synthesized (implicit) permissions for apps to access data in `Android/data/PACKAGENAME`. [`Context.getExternalFilesDirs`](https://developer.android.com/reference/android/content/Context.html#getExternalFilesDirs(java.lang.String)) provides a collection of paths for this folder on all external volumes, starting with the primary storage. However, this folder will be deleted when the app is uninstalled.
 
 Furthermore, Android 4.4 added a [Storage Access Framework (SAF)](https://developer.android.com/guide/topics/providers/document-provider.html) which aims to standardize the way user access documents in apps. Via a system UI, it gives access to any directory on a storage volume.
 
-A third noteworthy addition is the standard directory for documents, [`DIRECTORY_DOCUMENTS`](https://developer.android.com/reference/android/os/Environment.html#DIRECTORY_DOCUMENTS).
+Another noteworthy addition is the standard directory for documents, [`DIRECTORY_DOCUMENTS`](https://developer.android.com/reference/android/os/Environment.html#DIRECTORY_DOCUMENTS).
 
 Android 6.0 introduced interactive permission granting at runtime, i.e. the explicit `WRITE_EXTERNAL_STORAGE` maybe granted or revoked by the user as needed, instead of being accepted at installation. Use may even revoke permissions from apps developed for older versions.
 
@@ -87,14 +87,25 @@ All map files found in OOMapper folders in the examined locations are displayed 
 
 ## Possible Changes
 
-- The primary external directory can be determined through documented API.
+### Primary external storage
 
-- Scanning more native paths (such as all subdirs of `/storage` and `mnt`) results in multiple listing of files. While that issue might be addressed, the problem of getting write access remains.
+- The primary external storage can be determined through documented API, instead of relying on undocumented details.
+- Information about the type of external storage could be given to the user (emulated = builtin storage, otherwise: memory card (?))
 
-- Using the volumes provided by [`QStorageInfo::mountedVolumes`](http://doc.qt.io/qt-5/qstorageinfo.html#mountedVolumes) turned out to be likewise incomplete and inconsistent across devices. Again, the problem of getting write access remains.
+### Secondary external storage
 
-- Native write access to folders on secondary storage volumes will be possible only after getting permission through Android 7.0 through Java APIs (Scoped Directory Access). This excludes nearly all current devices.
+- Scanning more native paths (such as all subdirs of `/storage` and `mnt`) results in multiple listing of files. OTOH the result might remain incomplete. :-1:
 
-- The Storage Access Frame gives access to a broad range of providers through Android 4.4 Java API. This might be powerful but is quite complex for a native app such as Mapper.
+- Using the volumes provided by [`QStorageInfo::mountedVolumes`](http://doc.qt.io/qt-5/qstorageinfo.html#mountedVolumes) turned out to be likewise incomplete and inconsistent across devices. The implementation parses `/proc/mounts` which may give quite different result over various devices and versions. :-1: 
 
-- Syntesized Permissions exists since Android 4.4 at least and requires no extra effort for write access to selected directories.
+- Syntesized Permissions exists since Android 4.4 at least and requires no extra effort for write access to particular directories. However, these folders are deleted when the app is removed. :-1:
+
+  However, [`Context.getExternalFilesDirs`](https://developer.android.com/reference/android/content/Context.html#getExternalFilesDirs(java.lang.String)) could be the best tool to determine all storage volumes.
+
+- Native write access to arbitrary folders on secondary storage volumes will be possible only after getting permission through Android 7.0 Java APIs (Scoped Directory Access). This excludes nearly all current devices. :-1: 
+
+- The Storage Access Framework gives access to a broad range of providers through Android 4.4 Java API. This might be powerful but is quite complex for a native app such as Mapper. :sleepy: 
+
+- *The simplest thing is to declare secondary storage being no longer supported.* This is more or lese the current state: writing to these locations is not possible.
+
+  To mitigate the impact of background images on the capacity of the primary storage (especially when emulated), secondary storage could be supported as a read-only location.
