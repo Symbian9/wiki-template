@@ -90,7 +90,6 @@ All map files found in OOMapper folders in the examined locations are displayed 
 ### Primary external storage
 
 - The primary external storage can be determined through documented API, instead of relying on undocumented details.
-- Information about the type of external storage could be given to the user (emulated = builtin storage, otherwise: memory card (?))
 
 ### Secondary external storage
 
@@ -109,3 +108,15 @@ All map files found in OOMapper folders in the examined locations are displayed 
 - *The simplest thing is to declare secondary storage being no longer supported.* This is more or lese the current state: writing to these locations is not possible.
 
   To mitigate the impact of background images on the capacity of the primary storage (especially when emulated), secondary storage could be supported as a read-only location.
+
+### User Experience
+
+- The hint on program start needs to be adjusted.
+
+- The `OOMapper` directory on the primary volume could be created on program start.
+
+- Information about the type of external storage could be given to the user (emulated = builtin storage, otherwise: memory card (?)).
+
+- A warning could be given when opening a file from a (legacy) read-only location. Changes could be written to a writable location instead, but next time there would be two files which might have conflicting changes. 
+
+  Alternatively, the read-only file could be used as a template for a new file, thus strictly separating the changes from the original.
