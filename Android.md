@@ -120,3 +120,5 @@ All map files found in OOMapper folders in the examined locations are displayed 
 - A warning could be given when opening a file from a (legacy) read-only location. Changes could be written to a writable location instead, but next time there would be two files which might have conflicting changes. 
 
   Alternatively, the read-only file could be used as a template for a new file, thus strictly separating the changes from the original.
+
+- Instead of the OOMapper folder at the root, a subfolder in the Documents folder might be considered more appropriate.
