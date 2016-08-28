@@ -87,7 +87,13 @@ All map files found in OOMapper folders in the examined locations are displayed 
   - Mapper uses the environment variable `EXTERNAL_STORAGE` which is not part of the documented API. However, this variable as well as the `/sdcard` path and `Environment.getExternalStorageDirectory()` are tested legacy features in the CTS even for Android 7.0.
   - [`Environment.getExternalStorageDirectory`](https://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()) is the documented API since Android 1.0.
 
-## Possible Changes
+## Considered Changes
+
+### Information provided by Qt API
+
+- `QStorageInfo`: Using the volumes provided by [`QStorageInfo::mountedVolumes`](http://doc.qt.io/qt-5/qstorageinfo.html#mountedVolumes) turned out to be incomplete and inconsistent across devices. The implementation parses `/proc/mounts` which may give quite different result over various devices and versions. :-1: 
+
+- `QStandardPaths`: [`QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation)`](http://doc.qt.io/qt-5/qstandardpaths.html#standardLocations) provides both the shared Documents folder on the primary external storage volume (requiring `WRITE_EXTERNAL_STORAGE` permission), and the package-specific Documents folder covered by *Synthesized Permissions*.
 
 ### Primary external storage
 
@@ -98,8 +104,6 @@ All map files found in OOMapper folders in the examined locations are displayed 
 ### Secondary external storage
 
 - Scanning more native paths (such as all subdirs of `/storage` and `mnt`) results in multiple listing of files. OTOH the result might remain incomplete. :-1:
-
-- Using the volumes provided by [`QStorageInfo::mountedVolumes`](http://doc.qt.io/qt-5/qstorageinfo.html#mountedVolumes) turned out to be likewise incomplete and inconsistent across devices. The implementation parses `/proc/mounts` which may give quite different result over various devices and versions. :-1: 
 
 - *Synthesized Permissions* exist since Android 4.4 at least and requires no extra effort for write access to particular directories. However, these folders are deleted when the app is removed. :boom: They might still be offered as an option with proper warnings.
 
