@@ -21,7 +21,7 @@ These requirements are fulfilled by Android's "External Storage" which is also o
 
 ## External Storage on Android
 
-*Cf. https://source.android.com/devices/storage/, https://possiblemobile.com/2014/03/android-external-storage/*
+*Cf. https://source.android.com/devices/storage/, https://possiblemobile.com/2014/03/android-external-storage/, and also the tests in https://android.googlesource.com/platform/cts/+/nougat-release/hostsidetests/appsecurity/test-apps*
 
 Android has different types of external storage, and there may be different volumes.
 
@@ -31,7 +31,7 @@ Android has different types of external storage, and there may be different volu
 - Adoptable storage (since Android 6.0):
   provided by physical media, like an SD card or USB, but encrypted and formatted to behave like internal storage, and thus tied to a particular device.
 
-So although called "external", this storage may include emulated storage which actually resides on internal storage.
+So although called "external", this storage may include emulated storage which actually resides on internal storage. When it comes to permissions, it is neccessary to note the differerence between the single *primary* volume (since Android 1.0) and the set of *secondary* volumes (introduced later).
 
 Since Android 1.0, full access to the external storage given by [`Environment.getExternalStorageDirectory`](https://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()) is subject to the `WRITE_EXTERNAL_STORAGE` permission (since Android 1.0). 
 
@@ -83,13 +83,17 @@ All map files found in OOMapper folders in the examined locations are displayed 
 
 - The same volume may appear in different paths, leading to files being listed multiple times. (This is not a reported issue but was found when trying to scan more locations.)
 
-- There is no problem (yet, Android 6.0) with finding and accessing (`WRITE_EXTERNAL_STORAGE`) the primary storage. However, the environment variable `EXTERNAL_STORAGE` is undocumented, in contrast to the API method [`Environment.getExternalStorageDirectory`](https://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()) and the `/sdcard` path (which is used by Mapper as a fallback, at least).
+- There is no problem (yet, Android 6.0) with finding and accessing (`WRITE_EXTERNAL_STORAGE`) the primary storage. However:
+  - Mapper uses the environment variable `EXTERNAL_STORAGE` which is not part of the documented API. However, this variable as well as the `/sdcard` path and `Environment.getExternalStorageDirectory()` are tested legacy features in the CTS even for Android 7.0.
+  - [`Environment.getExternalStorageDirectory`](https://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()) is the documented API since Android 1.0.
 
 ## Possible Changes
 
 ### Primary external storage
 
-- The primary external storage can be determined through documented API, instead of relying on undocumented details.
+- The primary external storage can be determined through documented API, [`Environment.getExternalStorageDirectory`](https://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()).
+
+- A subfolder of the standard Documents folder can be constructed via [`Environment.getExternalStoragePublicDirectory(DIRECTORY_DOCUMENTS)`](https://developer.android.com/reference/android/os/Environment.html#getExternalStoragePublicDirectory(java.lang.String)).
 
 ### Secondary external storage
 
@@ -97,17 +101,15 @@ All map files found in OOMapper folders in the examined locations are displayed 
 
 - Using the volumes provided by [`QStorageInfo::mountedVolumes`](http://doc.qt.io/qt-5/qstorageinfo.html#mountedVolumes) turned out to be likewise incomplete and inconsistent across devices. The implementation parses `/proc/mounts` which may give quite different result over various devices and versions. :-1: 
 
-- Syntesized Permissions exists since Android 4.4 at least and requires no extra effort for write access to particular directories. However, these folders are deleted when the app is removed. :-1:
+- *Synthesized Permissions* exist since Android 4.4 at least and requires no extra effort for write access to particular directories. However, these folders are deleted when the app is removed. :boom: They might still be offered as an option with proper warnings.
 
-  However, [`Context.getExternalFilesDirs`](https://developer.android.com/reference/android/content/Context.html#getExternalFilesDirs(java.lang.String)) could be the best tool to determine all storage volumes.
+  The related method [`Context.getExternalFilesDirs`](https://developer.android.com/reference/android/content/Context.html#getExternalFilesDirs(java.lang.String)) could be the best tool to determine all storage volumes.
 
 - Native write access to arbitrary folders on secondary storage volumes will be possible only after getting permission through Android 7.0 Java APIs (Scoped Directory Access). This excludes nearly all current devices. :-1: 
 
 - The Storage Access Framework gives access to a broad range of providers through Android 4.4 Java API. This might be powerful but is quite complex for a native app such as Mapper. :sleepy: 
 
-- *The simplest thing is to declare secondary storage being no longer supported.* This is more or lese the current state: writing to these locations is not possible.
-
-  To mitigate the impact of background images on the capacity of the primary storage (especially when emulated), secondary storage could be supported as a read-only location.
+- *The simplest thing is to declare secondary storage being no longer supported.* This is more or less the current state: writing to these locations is not possible.
 
 ### User Experience
 
@@ -115,10 +117,12 @@ All map files found in OOMapper folders in the examined locations are displayed 
 
 - The `OOMapper` directory on the primary volume could be created on program start.
 
-- Information about the type of external storage could be given to the user (emulated = builtin storage, otherwise: memory card (?)).
+- Information about the type of external storage could be given to the user (emulated = builtin storage, otherwise, especially removable: memory card (?)).
 
-- A warning could be given when opening a file from a (legacy) read-only location. Changes could be written to a writable location instead, but next time there would be two files which might have conflicting changes. 
-
-  Alternatively, the read-only file could be used as a template for a new file, thus strictly separating the changes from the original.
+- Files placed in read-only locations on secondary volumes must no be opened for changes, to avoid that the user unexpectedly looses modifications. There is a number of options how to deal with these files:
+  - Mapper could implement a read-only mode.
+  - The files might be simply not listed at all. A hint might be displayed to the user.
+  - Changes could be written to a writable location instead. However, this would result in two files which might have conflicting changes in the long run. In addition, the user could be confused by the changes being in a different location.
+  - The read-only file could be used as a template for a new file, thus strictly separating the changes from the original.
 
 - Instead of the OOMapper folder at the root, a subfolder in the Documents folder might be considered more appropriate.
