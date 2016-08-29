@@ -41,16 +41,17 @@ Android 4.1 added permission `READ_EXTERNAL_STORAGE` for pure read access tot th
 
 Android 4.2 added multi-user support. External storage concepts were adjusted in the following way:
 - Primary external storage is specific to each user and not accessible for other user. `/sdcard` can be used to access to primary external storage (whether SD card or not). `WRITE_EXTERNAL_STORAGE` grants access to the whole volume.
-- For optimization, large OBB files may be shared between multiple users in the `Android/obb` directory.
 - On secondary external storage, apps may only write to package-specific directories as allowed by synthesized permissions (see below, although documented as "since Android 4.4").
 
 Android 4.4 introduced synthesized (implicit) permissions for apps to access data in `Android/data/PACKAGENAME`. [`Context.getExternalFilesDirs`](https://developer.android.com/reference/android/content/Context.html#getExternalFilesDirs(java.lang.String)) provides a collection of paths for this folder on all external volumes, starting with the primary storage. However, this folder will be deleted when the app is uninstalled.
 
-Furthermore, Android 4.4 added a [Storage Access Framework (SAF)](https://developer.android.com/guide/topics/providers/document-provider.html) which aims to standardize the way user access documents in apps. Via a system UI, it gives access to any directory on a storage volume.
+Furthermore, Android 4.4 added a [Storage Access Framework (SAF)](https://developer.android.com/guide/topics/providers/document-provider.html) which aims to standardize the way user access documents in apps. Via a system UI, it gives access to any document offered by a storage provider. Providers exist for external storage as well as for cloud services.
 
 Another noteworthy addition is the standard directory for documents, [`DIRECTORY_DOCUMENTS`](https://developer.android.com/reference/android/os/Environment.html#DIRECTORY_DOCUMENTS).
 
-Android 6.0 introduced interactive permission granting at runtime, i.e. the explicit `WRITE_EXTERNAL_STORAGE` maybe granted or revoked by the user as needed, instead of being accepted at installation. Use may even revoke permissions from apps developed for older versions.
+Android 5.0 extends the Storage Access Framework by the option to get access to whole document tree, i.e. a folder (even a whole SD card) and all its content.
+
+Android 6.0 introduced interactive permission granting at runtime, i.e. the explicit `WRITE_EXTERNAL_STORAGE` maybe granted or revoked by the user as needed, instead of being accepted at installation. Users may revoke permissions even from apps developed for older versions.
 
 Android 7.0 adds [Scoped Directory Access](https://developer.android.com/training/articles/scoped-directory-access.html). A new class [`StorageVolume`](https://developer.android.com/reference/android/os/storage/StorageVolume.html) features a method [`createAccessIntent`](https://developer.android.com/reference/android/os/storage/StorageVolume.html#createAccessIntent(java.lang.String)) for getting runtime access to a standard storage directory or entire (secondary) volume.
 
