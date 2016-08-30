@@ -59,6 +59,9 @@ Windows       | 3.0.2       | gcc 5.3.1   | 5.5.1       | 6.1.3a       | 4.9.2  
 - [Debian Packages](https://www.debian.org/distrib/packages)
   - [Mapper in Debian Package Tracker](https://tracker.debian.org/pkg/openorienteering-mapper)
   - [Mapper screenshots page](https://screenshots.debian.net/package/openorienteering-mapper)
+  - Popularity (popcon):
+
+    ![openorienteering-mapper popcon graph](https://qa.debian.org/cgi-bin/popcon-png?packages=openorienteering-mapper&show_installed=on&want_legend=on&want_ticks=on&date_fmt=%25Y-%25m&beenhere=1)
 
 
 ## Fedora
