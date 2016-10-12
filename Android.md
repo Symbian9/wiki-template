@@ -7,7 +7,7 @@
 
 # File storage
 
-# Requirements and Storage Options
+## Requirements and Storage Options
 
 Mapper needs to use a storage which
 - allows for big amounts of data (background templates!)
@@ -70,7 +70,7 @@ If this folder was not found in the previous locations, it continues with the fo
 
 All map files found in OOMapper folders in the examined locations are displayed to the user.
 
-## Current Situation
+## How Mapper 0.6.4 fails
 
 - Mapper may not find all relevant storage volumes on various version of Android (issue #745).
   - Mapper relies on undocumented environment variables and fixed fallback paths for locating map files.
@@ -88,7 +88,7 @@ All map files found in OOMapper folders in the examined locations are displayed 
   - Mapper uses the environment variable `EXTERNAL_STORAGE` which is not part of the documented API. However, this variable as well as the `/sdcard` path and `Environment.getExternalStorageDirectory()` are tested legacy features in the CTS even for Android 7.0.
   - [`Environment.getExternalStorageDirectory`](https://developer.android.com/reference/android/os/Environment.html#getExternalStorageDirectory()) is the documented API since Android 1.0.
 
-## Considered Changes
+## Considered Changes to Mapper 0.6.4
 
 ### Information provided by Qt API
 
@@ -131,3 +131,10 @@ All map files found in OOMapper folders in the examined locations are displayed 
   - The read-only file could be used as a template for a new file, thus strictly separating the changes from the original.
 
 - Instead of the OOMapper folder at the root, a subfolder in the Documents folder might be considered more appropriate.
+
+
+## How Mapper 0.6.5 And Later Find Maps
+
+http://www.openorienteering.org/mapper-manual/pages/android-storage.html
+
+
