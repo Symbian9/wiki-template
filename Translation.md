@@ -19,7 +19,7 @@ The user interface is translated to the following languages:
 | Español de España (Spanish) | es | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/es/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/es/) |
 | Eesti (Estonian) | et | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/et/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/et/) |
 | Français (French) | fr | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fr/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/fr/) |
-| עברית (Hebrew, RTL) | he | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/he/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/he/) |
+| עברית (Hebrew, right-to-left) | he | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/he/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/he/) |
 | Bahasa Indonesia (Indonesian) | id | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/id/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/id/) |
 | Italiano (Italian) | it | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/it/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/it/) |
 | Latviešu (Latvian) | lv | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/lv/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/lv/) |
