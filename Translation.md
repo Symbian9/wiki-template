@@ -1,11 +1,17 @@
 OpenOrienteering Mapper supports localization. This page gives an overview and hints to both translators and programmers. 
 
+ * [Information for translators](#information-for-translators)
+ * [Information for programmers](#information-for-programmers)
+
 
 ## Present state
 
 ### Translation issues
 
-[All issues with label translation](https://github.com/OpenOrienteering/mapper/labels/translations)
+Github: [![Open issues with label 'translations'](https://img.shields.io/github/issues/openorienteering/mapper/translations.svg)](https://github.com/OpenOrienteering/mapper/labels/translations)<br/>
+[Weblate: Failing checks](https://hosted.weblate.org/checks/?project=openorienteering)<br/>
+[Weblate: Source strings to check](https://hosted.weblate.org/projects/openorienteering/mapper/source/)<br/>
+[Weblate: Ignored checks](https://hosted.weblate.org/checks/?project=openorienteering&ignored=true)
 
 ### Next release (Mapper 0.6.4) and unstable development snapshot
 
@@ -57,6 +63,18 @@ Editing translations online on [Weblate](https://hosted.weblate.org/projects/ope
 Unfortunately, there is no easy way to test the translations until they eventually arrive in an unstable build.
 
 OpenOrienteering uses Weblate's free hosting offer for open source projects. You may [donate to Weblate](https://weblate.org/donate/) to support both projects.
+
+#### Special markers in translations
+
+ * **Placeholders:** The source strings may contain placeholders such as `%1` or `%n`.
+   `%1`, `%2` etc. are replaced with some text or number when displayed. Since each number identifies a particular spot in the source string, you may change the order the placeholders so that it fits the grammar of the language you translate for.
+   `%n` is a special marker which will be replaced with a number. In addition the value of the number is used to select between singular and plural versions of the translation.
+
+ * **Shortcuts:** An ampersand `&` before a letter is used to mark the following letter as a shortcut key. In this case, the ampersand is not displayed, but usually the shortcut is indicated by underlining the letter. You may choose a different letter for the translation.
+
+ * **HTML markup:** Some strings contain HTML markup, such as `<b>...</b>` for <b>bold</b> style. Please try to maintain this markup in the translation.
+
+ * **Line breaks:** Some strings contain line breaks in order to limit the width of some texts or to move certain parts of text to the beginning of a line. Please try to insert similar line breaks in the translation.
 
 ----
 
