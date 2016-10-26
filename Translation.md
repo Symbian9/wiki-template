@@ -20,6 +20,7 @@ The user interface is translated to the following languages:
 | Language | Code | State |
 | -------- | ---- | ----- |
 | Čeština (Czech) | cs | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/cd/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/cs/) |
+| Dansk (Danish)  | da | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/da/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/da/) |
 | Deutsch (German) | de | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/de/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/de/) |
 | English (plural forms only) | en | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/en/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/en/) |
 | Español de España (Spanish) | es | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/es/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/es/) |
@@ -94,11 +95,13 @@ To start the translation for a new language offline, you can start with the [tem
 
 To update or modify an existing translation you can download the latest version from the [translations directory](https://github.com/OpenOrienteering/mapper/tree/master/translations/) or use git to checkout the source code including the translations directory: 
 
-      git clone https://github.com/OpenOrienteering/mapper.git
+~~~
+git clone https://github.com/OpenOrienteering/mapper.git
+~~~
 
 You can submit the updated translation with a pull request or an issue on [Github](https://github.com/OpenOrienteering/mapper/). 
 
-When the developers add new strings to the source code, these strings have to be added to the the .ts-files. This is done by calling the lupdate program with the proper sources and targets. For platforms where /bin/sh is available a script translations/update-translations.sh is provided which automates that process. 
+When the developers add new strings to the source code, these strings have to be added to the the .ts-files. This is done by calling the lupdate program with the proper sources and targets. For platforms where `/bin/sh` is available a script `translations/update-translations.sh` is provided which automates that process. 
 
 **Warning:** Since the .ts-file contains the translated strings, you might loose translations which are not yet in the git repository when you download a fresh copy of the file from the git repository. Make a backup of your work if you are in doubt. For merging translations see below. 
 
@@ -118,21 +121,22 @@ Unfortunately, the library's translation is rather incomplete at the moment. So 
 ## Information for Programmers
 
   * Learn about the [Qt translation framework from a programmer's point of view](http://qt-project.org/doc/qt-5.0/qtlinguist/linguist-programmers.html). 
-  * Add tr("....") to strings to be translated. In case of UTF-8 characters which are not part of the Latin-1 charset, use trUtf8("...") instead. 
-  * For standard dialog box buttons, use [QDialogButtonBox](http://qt-project.org/doc/qt-5.0/qtwidgets/qdialogbuttonbox.html) with the appropriate [StandardButtons](http://qt-project.org/doc/qt-5.0/qtwidgets/qdialogbuttonbox.html#StandardButton-enum). This class will use the platform look and feel, and it removes the necessity to introduce translatable string for standard buttons. 
+  * Add `tr("....")` to strings to be translated. In case of UTF-8 characters which are not part of the Latin-1 charset, use `trUtf8("...")` instead. 
+  * For standard dialog box buttons, use [`QDialogButtonBox`](http://qt-project.org/doc/qt-5.0/qtwidgets/qdialogbuttonbox.html) with the appropriate [`StandardButtons`](http://qt-project.org/doc/qt-5.0/qtwidgets/qdialogbuttonbox.html#StandardButton-enum). This class will use the platform look and feel, and it removes the necessity to introduce translatable string for standard buttons. 
   * Keep translations in mind when constructing phrases: 
     * Find a good phrase before first commit. 
     * Don't introduce many variants of phrases when standardization is easily possible. 
-  * Even units of measurement might need translation. For disambiguation, supply a second parameter to tr(), e.g. 
-    
-      tr("m", "meters")
+  * Even units of measurement might need translation. For disambiguation (in addition to the context, supply a second parameter to `tr()`, e.g. 
+~~~
+tr("m", "meters")
+~~~
     
 
 ## Maintaining Translations in the Build System
 
   * Translations (.ts files) shall be saved in the translations directory. 
-  * Translations must be added to the Mapper_TRANS variable in CMakeLists.txt. 
-  * Translations may be updated by calling "make Mapper_translations_update" (for all translations and the template), "make Mapper_OpenOrienteering_XX_update" (for language XX), or "make Mapper_OpenOrienteering_template_update" (for the template only). 
+  * Translations must be added to the `Mapper_TRANS` variable in CMakeLists.txt. 
+  * Translations may be updated by calling `make Mapper_translations_update` (for all translations and the template), `make Mapper_OpenOrienteering_XX_update` (for language XX), or `make Mapper_OpenOrienteering_template_update` (for the template only). 
 
   
 
