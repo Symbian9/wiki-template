@@ -34,6 +34,7 @@ macOS (aka OS X) | 3.x      | XCode 7.0   | 5.5.1       | 6.1.3a       | 4.9.2  
 openSUSE 13.2 | 3.0.2       | gcc 4.8.3 :-1: | 5.3.2    | 6.1.3a       | 4.8.0 :-1:  |  . .        | OBS
 openSUSE Leap 42.1  | 3.3.2 | gcc 4.8.5 :-1:, gcc 5.2.1 | 5.5.0    | 6.1.3a       | 4.9.2       | 1.11.3 :-1: | OBS
 openSUSE Tumbleweed | 3.3.2 | gcc 5.1.1, gcc 5.2.1   | 5.5.0       | 6.1.3a       | 4.9.2       | 1.11.3 :-1: | OBS
+Slackware 14.2 |    |    |    |    |    |    | [SlackBuilds.org](#slackware)
 Ubuntu 14.04 :-1: | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1:  | 6.1.3a    | 4.8.0 :-1:  | 1.10.1 :-1: | OBS
 Ubuntu 15.10  | 3.2.2       | gcc 5.2.1   | 5.4.2       | 6.1.3a       | 4.9.1       | 1.11.2 :-1: | OBS
 Ubuntu 16.04  | 3.5.1       | gcc 5.4.0, gcc 5.3.1  | 5.5.1       | 6.1.3a       | 4.9.2       | 1.11.3 :-1: | OBS
@@ -77,3 +78,6 @@ Windows       | 3.0.2       | gcc 5.3.1   | 5.5.1       | 6.1.3a       | 4.9.2  
   - [Mapper in Launchpad](https://launchpad.net/ubuntu/+source/openorienteering-mapper)
   - [Mapper screenshots page](https://screenshots.debian.net/package/openorienteering-mapper)
 
+## Slackware
+
+- [Mapper for Slackware 14.2 on SlackBuilds.org](https://slackbuilds.org/repository/14.2/gis/openorienteering-mapper/)
