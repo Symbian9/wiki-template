@@ -26,7 +26,7 @@ For unstable/upcoming release:
 Target System | CMake       | C++         | Qt          | Polyclipping | Proj.4      |  GDAL       | Remark
 --------------|-------------|-------------|-------------|--------------|-------------|-------------|-------------
 [Android](Android) | 3.x         | gcc 4.9     | 5.5.1       | 6.1.3a       | **4.9.2**   |  . .        | local build
-Arch Linux      | 3.3.2       | gcc 5.2.0   | 5.5.1       | 6.1.3a       | 4.9.1       |  . .        | OBS, [AUR](#arch-linux)
+[Arch Linux](#arch-linux)      | 3.3.2       | gcc 5.2.0   | 5.5.1       | 6.1.3a       | 4.9.1       |  . .        | OBS, [AUR](#arch-linux)
 Debian 8.0      | 3.0.2       | gcc 4.9.2   | 5.3.2       | 6.1.3a       | 4.8.0 :-1:  | 1.10.1 :-1: | OBS
 [Debian](#debian) testing  | **3.6.2**   | **gcc 6.2.0** | **5.6.1** | 6.1.3a       | **4.9.2**   | **2.1.2**   | OBS, [Debian](#debian)
 Fedora 22     | 3.2.2       | gcc 5.1.1   | 5.4.1       | 6.1.3a       | 4.8.0 :-1:  | 1.11.3 :-1: | OBS
