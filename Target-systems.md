@@ -1,5 +1,9 @@
 # Notes on target systems
 
+ * [Windows and Linux packages on OBS](#windows-and-linux-unstable-packages-on-obs)
+ * [Component version matrix](#component-version-matrix)
+ * [Linux distributions](#linux-distributions)
+
 ## Windows and Linux (unstable) packages on OBS
 
 We provide Mapper releases for Windows and a number of Linux distributions on openSUSE Build Service (OBS). The build [openorienteering-mapper-unstable in home:dg0yt:staging](https://build.opensuse.org/package/show/home:dg0yt:staging/openorienteering-mapper-unstable) is triggered by each push to the mapper repository on GitHub. Successful builds need to be explicitly released to the home:dg0yt project by calling
@@ -24,7 +28,7 @@ Target System | CMake       | C++         | Qt          | Polyclipping | Proj.4 
 [Android](Android) | 3.x         | gcc 4.9     | 5.5.1       | 6.1.3a       | **4.9.2**   |  . .        | local build
 Arch Linux      | 3.3.2       | gcc 5.2.0   | 5.5.1       | 6.1.3a       | 4.9.1       |  . .        | OBS, [AUR](#arch-linux)
 Debian 8.0      | 3.0.2       | gcc 4.9.2   | 5.3.2       | 6.1.3a       | 4.8.0 :-1:  | 1.10.1 :-1: | OBS
-Debian testing  | **3.6.2**   | **gcc 6.2.0** | **5.6.1** | 6.1.3a       | **4.9.2**   | **2.1.2**   | OBS, [Debian](#debian)
+[Debian](#debian) testing  | **3.6.2**   | **gcc 6.2.0** | **5.6.1** | 6.1.3a       | **4.9.2**   | **2.1.2**   | OBS, [Debian](#debian)
 Fedora 22     | 3.2.2       | gcc 5.1.1   | 5.4.1       | 6.1.3a       | 4.8.0 :-1:  | 1.11.3 :-1: | OBS
 Fedora 23     | 3.3.2       | gcc 5.1.1   | 5.5.0       | 6.1.3a       | 4.9.1       | 2.0.1       | OBS
 [Fedora](#fedora) 24     | 3.5.2       | gcc 6.1.1   | 5.6.0       | 6.1.3a       | 4.9.2       | 2.0.2       | OBS
@@ -34,7 +38,7 @@ macOS (aka OS X) | 3.x      | XCode 7.0   | 5.5.1       | 6.1.3a       | 4.9.2  
 openSUSE 13.2 | 3.0.2       | gcc 4.8.3 :-1: | 5.3.2    | 6.1.3a       | 4.8.0 :-1:  |  . .        | OBS
 openSUSE Leap 42.1  | 3.3.2 | gcc 4.8.5 :-1:, gcc 5.2.1 | 5.5.0    | 6.1.3a       | 4.9.2       | 1.11.3 :-1: | OBS
 openSUSE Tumbleweed | 3.3.2 | gcc 5.1.1, gcc 5.2.1   | 5.5.0       | 6.1.3a       | 4.9.2       | 1.11.3 :-1: | OBS
-Slackware 14.2 | 3.5.2 | gcc 5.3.0 | Qt 5.6.1 (SBo)  | 6.1.3a (SBo) | 4.9.2 (SBo) | 2.1.2 (SBo) | [SlackBuilds.org](#slackware)
+[Slackware](#slackware) 14.2 | 3.5.2 | gcc 5.3.0 | Qt 5.6.1 (SBo)  | 6.1.3a (SBo) | 4.9.2 (SBo) | 2.1.2 (SBo) | [SlackBuilds.org](#slackware)
 Ubuntu 14.04 :-1: | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1:  | 6.1.3a    | 4.8.0 :-1:  | 1.10.1 :-1: | OBS
 Ubuntu 15.10  | 3.2.2       | gcc 5.2.1   | 5.4.2       | 6.1.3a       | 4.9.1       | 1.11.2 :-1: | OBS
 Ubuntu 16.04  | 3.5.1       | gcc 5.4.0, gcc 5.3.1  | 5.5.1       | 6.1.3a       | 4.9.2       | 1.11.3 :-1: | OBS
@@ -46,7 +50,9 @@ Windows       | 3.0.2       | gcc 5.3.1   | 5.5.1       | 6.1.3a       | 4.9.2  
 * CMake < 3.0 needs a ```windres``` workaround in ```src/CMakeLists.txt``` when locally cross-compiling for windows.
 * The Android APKs are built with qmake in Qt Creator, but CMake is used to build dependencies.
 
-## Arch Linux
+## Linux Distributions
+
+### Arch Linux
 
 - [Arch Linux package database](https://www.archlinux.org/packages/)
 - [Arch User Repository (AUR)](https://aur.archlinux.org/packages/)
@@ -55,7 +61,7 @@ Windows       | 3.0.2       | gcc 5.3.1   | 5.5.1       | 6.1.3a       | 4.9.2  
     ![](https://img.shields.io/aur/votes/openorienteering-mapper.svg)
 
 
-## Debian
+### Debian
 
 - [Debian Packages](https://www.debian.org/distrib/packages)
   - [Mapper in Debian Package Tracker](https://tracker.debian.org/pkg/openorienteering-mapper)
@@ -66,18 +72,18 @@ Windows       | 3.0.2       | gcc 5.3.1   | 5.5.1       | 6.1.3a       | 4.9.2  
     ![openorienteering-mapper popcon graph](https://qa.debian.org/cgi-bin/popcon-png?packages=openorienteering-mapper&show_installed=on&want_legend=on&want_ticks=on&date_fmt=%25Y-%25m&beenhere=1)
 
 
-## Fedora
+### Fedora
 
 - [Fedora buildsystem (Koji)](http://koji.fedoraproject.org/koji/index)
 - [Fedora packages](https://apps.fedoraproject.org/packages/)
 
 
-## Ubuntu
+### Ubuntu
 
 - [Ubuntu Packages](http://packages.ubuntu.com/)
   - [Mapper in Launchpad](https://launchpad.net/ubuntu/+source/openorienteering-mapper)
   - [Mapper screenshots page](https://screenshots.debian.net/package/openorienteering-mapper)
 
-## Slackware
+### Slackware
 
 - [Mapper for Slackware 14.2 on SlackBuilds.org](https://slackbuilds.org/repository/14.2/gis/openorienteering-mapper/)
