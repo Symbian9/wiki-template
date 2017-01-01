@@ -37,7 +37,7 @@ Linux Mint 18.x (= Ubuntu 16.04) | 3.2.2  | gcc 5.2.1  | 5.5.1  | 6.1.3a | 4.9.2
 macOS (aka OS X)          | 3.x    | XCode 7.0  | 5.5.1  | 6.1.3a | 4.9.2  | -.-.-  | local build
 openSUSE 13.2 :-1:        | 3.0.2  | gcc 4.8.3 :-1: | 5.3.2  | 6.1.3a | 4.8.0  | -.-.-  | OBS
 openSUSE Leap 42.1        | 3.3.2  | gcc 5.2.1  | 5.5.0  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
-openSUSE Leap 42.2        | 3.5.2  | gcc 5.2.1  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.0  | OBS
+openSUSE Leap 42.2        | 3.5.2  | gcc 5.3.1  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.0  | OBS
 openSUSE Tumbleweed       | 3.7.1  | gcc 6.2.1  | 5.7.1  | 6.1.3a | 4.9.3  | 2.1.2  | OBS
 [Slackware](#slackware) 14.2 | 3.5.2 | gcc 5.3.0 | Qt 5.6.1 (SBo) | 6.1.3a (SBo) | 4.9.2 (SBo) | 2.1.2 (SBo) | [SlackBuilds.org](#slackware)
 Ubuntu 14.04 :-1: | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1: | 6.1.3a | 4.8.0  | 1.10.1 :-1: | OBS
