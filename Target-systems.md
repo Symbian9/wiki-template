@@ -48,6 +48,7 @@ Windows                   | 3.0.2  | gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  |  . 
 
 * Qt < 5.3 needs extra treatment in some places.
 * gcc < 4.9 does not have C++14 ```std::make_unique```.
+* gcc 4.8 strictly implements a "bug in the standard" which forces the creation of temporaries when using uniform initialization in member initialization and thus leading to crashes when accessing these temporaries later (cf. http://stackoverflow.com/questions/25561387/spurious-warning-about-binding-temporary-to-reference-member-in-constructor, observed for [ReplaceSymbolSetOperation constructor](https://github.com/OpenOrienteering/mapper/blob/master/src/gui/symbols/replace_symbol_set_dialog.cpp#L51).
 * CMake < 3.0 needs a ```windres``` workaround in ```src/CMakeLists.txt``` when locally cross-compiling for windows.
 * The Android APKs are built with qmake in Qt Creator, but CMake is used to build dependencies.
 
