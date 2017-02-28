@@ -21,18 +21,7 @@ The released downloads are available here:
 
 ## Component Version Matrix
 
-Limited to 0.6.x releases:
-
-Target System | CMake       | C++         | Qt          | Poly- clipping | Proj.4      |  GDAL       | Remark
---------------|-------------|-------------|-------------|----------------|-------------|-------------|-------------
-Linux Mint 17.x (= Ubuntu 14.04) :-1: | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1: | 6.1.3a | 4.8.0  | 1.10.1 :-1: | no build
-openSUSE 13.2 :-1: | 3.0.2 :-1: | gcc 4.8.3 :-1: | 5.3.2  | 6.1.3a | 4.8.0  | -.-.-  | OBS
-Ubuntu 14.04 :-1: | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1: | 6.1.3a | 4.8.0  | 1.10.1 :-1: | OBS
-
-* gcc < 4.9 does not provide C++14 ```std::make_unique```.
-* gcc 4.8 strictly implements a "bug in the standard" which forces the creation of temporaries when using uniform initialization in member initialization and thus leading to crashes when accessing these temporaries later (cf. http://stackoverflow.com/questions/25561387/spurious-warning-about-binding-temporary-to-reference-member-in-constructor), observed for [ReplaceSymbolSetOperation constructor](https://github.com/OpenOrienteering/mapper/blob/master/src/gui/symbols/replace_symbol_set_dialog.cpp#L51).
-
-For unstable/upcoming release:
+### Unstable and 0.7.x releases
 
 Target System | CMake       | C++         | Qt          | Poly- clipping | Proj.4      |  GDAL       | Remark
 --------------|-------------|-------------|-------------|----------------|-------------|-------------|-------------
@@ -49,15 +38,27 @@ openSUSE Leap 42.1        | 3.3.2  | gcc 5.2.1  | 5.5.0  | 6.1.3a | 4.9.2  | 1.1
 openSUSE Leap 42.2        | 3.5.2  | gcc 5.3.1  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.0  | OBS
 openSUSE Tumbleweed       | 3.7.1  | gcc 6.2.1  | 5.7.1  | 6.1.3a | 4.9.3  | 2.1.2  | OBS
 [Slackware](#slackware) 14.2 | 3.5.2 | gcc 5.3.0 | Qt 5.6.1 (SBo) | 6.1.3a (SBo) | 4.9.2 (SBo) | 2.1.2 (SBo) | [SlackBuilds.org](#slackware)
-Ubuntu 15.10              | 3.2.2  | gcc 5.2.1  | 5.4.2  | 6.1.3a | 4.9.1  | 1.11.2 :-1: | OBS
-Ubuntu 16.04              | 3.5.1  | gcc 5.4.0, gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
+[Ubuntu](#ubuntu) 16.04   | 3.5.1  | gcc 5.4.0, gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
 [Ubuntu](#ubuntu) 16.10   | 3.5.2  | gcc 6.2.0  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.1  | OBS, [Launchpad](#ubuntu)
 Windows                   | 3.7.1  | gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  |  . .   | OBS/openSUSE 13.2 with updated CMake
 
-* Qt < 5.3 needs extra treatment in some places.
 * CMake < 3.0 needs a ```windres``` workaround in ```src/CMakeLists.txt``` when locally cross-compiling for windows.
 * CMake < 3.1 does not support ```CMAKE_CXX_STANDARD```.
 * The Android APKs are built with qmake in Qt Creator, but CMake is used to build dependencies.
+
+### Limited to 0.6.x releases
+
+Target System | CMake       | C++         | Qt          | Poly- clipping | Proj.4      |  GDAL       | Remark
+--------------|-------------|-------------|-------------|----------------|-------------|-------------|-------------
+Linux Mint 17.x (= Ubuntu 14.04) :-1: | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1: | 6.1.3a | 4.8.0  | 1.10.1 :-1: | no build
+openSUSE 13.2 :-1: | 3.0.2 :-1: | gcc 4.8.3 :-1: | 5.3.2  | 6.1.3a | 4.8.0  | -.-.-  | OBS
+Ubuntu 14.04 :-1: | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1: | 6.1.3a | 4.8.0  | 1.10.1 :-1: | OBS
+
+* gcc < 4.9 does not provide C++14 ```std::make_unique```.
+* gcc 4.8 strictly implements a "bug in the standard" which forces the creation of temporaries when using uniform initialization in member initialization and thus leading to crashes when accessing these temporaries later (cf. http://stackoverflow.com/questions/25561387/spurious-warning-about-binding-temporary-to-reference-member-in-constructor), observed for [ReplaceSymbolSetOperation constructor](https://github.com/OpenOrienteering/mapper/blob/master/src/gui/symbols/replace_symbol_set_dialog.cpp#L51).
+* Qt < 5.3 needs extra treatment in some places.
+* CMake < 3.1 does not support ```CMAKE_CXX_STANDARD```.
+
 
 ## Linux Distributions
 
