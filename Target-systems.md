@@ -26,7 +26,7 @@ The released downloads are available here:
 Target System | CMake       | C++         | Qt          | Poly- clipping | Proj.4      |  GDAL       | Remark
 --------------|-------------|-------------|-------------|----------------|-------------|-------------|-------------
 [Android](Android)        | 3.x    | gcc 4.9    | 5.5.1  | 6.1.3a | 4.9.2  | -.-.-  | local build
-[Arch Linux](#arch-linux) | 3.3.2  | gcc 5.2.0  | 5.5.1  | 6.1.3a | 4.9.1  | -.-.-  | OBS, [AUR](#arch-linux)
+[Arch Linux](#arch-linux) | 3.7.2  | gcc 6.3.1  | 5.8.0  | 6.4.2 | 4.9.3  | 2.1.1  | OBS, [AUR](#arch-linux)
 Debian 8.0                | 3.0.2 :-1: | gcc 4.9.2  | 5.3.2  | 6.1.3a | 4.8.0  | 1.10.1 :-1: | OBS
 [Debian](#debian) testing | 3.7.1  | gcc 6.2.1  | 5.6.1  | 6.1.3a | 4.9.3  | 2.1.2  | OBS, [Debian](#debian)
 Fedora 23                 | 3.3.2  | gcc 5.1.1  | 5.5.0  | 6.1.3a | 4.9.1  | 2.0.1  | OBS
@@ -37,7 +37,7 @@ macOS (aka OS X)          | 3.x    | XCode 7.0  | 5.5.1  | 6.1.3a | 4.9.2  | -.-
 openSUSE Leap 42.1        | 3.3.2  | gcc 5.2.1  | 5.5.0  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
 openSUSE Leap 42.2        | 3.5.2  | gcc 5.3.1  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.0  | OBS
 openSUSE Tumbleweed       | 3.7.1  | gcc 6.2.1  | 5.7.1  | 6.1.3a | 4.9.3  | 2.1.2  | OBS
-[Slackware](#slackware) 14.2 | 3.5.2 | gcc 5.3.0 | Qt 5.6.1 (SBo) | 6.1.3a (SBo) | 4.9.2 (SBo) | 2.1.2 (SBo) | [SlackBuilds.org](#slackware)
+[Slackware](#slackware) 14.2 | 3.5.2 | gcc 5.3.0 | Qt 5.7.1 (SBo) | 6.4.2 (SBo) | 4.9.3 (SBo) | 2.1.3 (SBo) | [SlackBuilds.org](#slackware)
 [Ubuntu](#ubuntu) 16.04   | 3.5.1  | gcc 5.4.0, gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
 [Ubuntu](#ubuntu) 16.10   | 3.5.2  | gcc 6.2.0  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.1  | OBS, [Launchpad](#ubuntu)
 Windows                   | 3.7.1  | gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  |  . .   | OBS/openSUSE 13.2 with updated CMake
@@ -66,9 +66,12 @@ Ubuntu 14.04 :-1: | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1: | 6.1.3a | 4.8.0  
 
 - [Arch Linux package database](https://www.archlinux.org/packages/)
 - [Arch User Repository (AUR)](https://aur.archlinux.org/packages/)
-  - [Mapper in AUR](https://aur.archlinux.org/packages/?K=openorienteering) <br />
+  - [Mapper in AUR](https://aur.archlinux.org/packages/openorienteering-mapper/) <br />
     ![](https://img.shields.io/aur/version/openorienteering-mapper.svg)
     ![](https://img.shields.io/aur/votes/openorienteering-mapper.svg)
+  - [Mapper (git) in AUR](https://aur.archlinux.org/packages/openorienteering-mapper-git/) <br />
+    ![](https://img.shields.io/aur/version/openorienteering-mapper-git.svg)
+    ![](https://img.shields.io/aur/votes/openorienteering-mapper-git.svg)
 
 
 ### Debian
