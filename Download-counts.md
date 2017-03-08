@@ -5,6 +5,9 @@ These are statistics from Github Releases only. There are no download statistics
 
 | Release | OS                 | Downloads   |
 | ------- | ------- | ----------- | ----------- |
+| v0.6.8  | Android armeabi-v7a | ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.6.8/OpenOrienteering-Mapper-0.6.8-Android-armeabi-v7a.apk.svg) |
+|         | Android x86         | ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.6.8/OpenOrienteering-Mapper-0.6.8-Android-x86.apk.svg) |
+|         | macOS   x64         | ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.6.8/OpenOrienteering-Mapper-0.6.8-macOS-x64.dmg.svg) |
 | v0.6.7  | Android armeabi-v7a | ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.6.7/OpenOrienteering-Mapper-0.6.7-Android-armeabi-v7a.apk.svg) |
 |         | Android x86         | ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.6.7/OpenOrienteering-Mapper-0.6.7-Android-x86.apk.svg) |
 |         | macOS   x64         | ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.6.7/OpenOrienteering-Mapper-0.6.7-macOS-x64.dmg.svg) |
