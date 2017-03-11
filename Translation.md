@@ -41,7 +41,7 @@ The user interface is translated to the following languages:
 | Svenska (Swedish) | sv | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/sv/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/sv/) |
 | Українська (Ukrainian) | uk | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/uk/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/uk/) |
 | 日本語 (Japanese) | ja | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/ja/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/ja/) |
-| 中文 (Chinese) | cn | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/zh_CN/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/zh_CN/) |
+| 中文 (Chinese) | zh_Hans_CN | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/zh_Hans/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/zh_Hans/) |
 
 
 ## Information for Translators
