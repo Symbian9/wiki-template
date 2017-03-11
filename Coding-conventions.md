@@ -61,11 +61,11 @@ Example for a file called "this_file.cpp"
     
     #include "this_file.h"
     
-    #include &lt;string.h&gt;
-    #include &lt;assert.h&gt;
+    #include <string.h>
+    #include <assert.h>
     
-    #include &lt;QtGui&gt;
-    #include &lt;liblas/liblas.hpp&gt;
+    #include <QtGui>
+    #include <liblas/liblas.hpp>
     
     #include "map.h"
     #include "map_widget.h"
