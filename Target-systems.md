@@ -67,6 +67,18 @@ The released downloads are available here:
 
 ## Component Version Matrix
 
+### Next Linux distribution releases
+
+Component | Versions
+----------|---------
+CMake | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/cmake.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/cmake.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/cmake.svg)
+gcc | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/gcc.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/gcc.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/gcc.svg)
+GDAL | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/gdal.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/gdal.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/gdal.svg)
+polyclipping | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/libpolyclipping.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/polyclipping.svg) ---
+PROJ.4 | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/proj.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/proj.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/proj.svg)
+Qt | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/qtbase-opensource-src.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/qt5-qtbase.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/libqt5-qtbase.svg)
+
+
 ### Unstable and 0.7.x releases
 
 Target System | CMake | C++         | Qt          | Poly- clipping | Proj.4      |  GDAL       | Remark
