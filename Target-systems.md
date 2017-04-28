@@ -24,6 +24,7 @@ The released downloads are available here:
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/openorienteering-mapper.svg)](https://repology.org/metapackage/openorienteering-mapper)
 
+Source: https://repology.org/metapackage/openorienteering-mapper
 
 ### Arch Linux
 
@@ -71,12 +72,14 @@ The released downloads are available here:
 
 Component | Versions
 ----------|---------
-CMake | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/cmake.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/cmake.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/cmake.svg)
-gcc | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/gcc.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/gcc.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/gcc.svg)
-GDAL | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/gdal.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/gdal.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/gdal.svg)
-polyclipping | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/libpolyclipping.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/polyclipping.svg) ---
-PROJ.4 | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/proj.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/proj.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/proj.svg)
-Qt | ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/qtbase-opensource-src.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/qt5-qtbase.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/libqt5-qtbase.svg)
+CMake | [![Arch package](https://repology.org/badge/version-for-repo/arch/cmake.svg) ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/cmake.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/cmake.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/cmake.svg)](https://repology.org/metapackage/cmake)
+gcc | [![Arch package](https://repology.org/badge/version-for-repo/arch/gcc.svg) ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/gcc.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/gcc.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/gcc.svg)](https://repology.org/metapackage/gcc)
+GDAL | [![Arch package](https://repology.org/badge/version-for-repo/arch/gdal.svg) ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/gdal.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/gdal.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/gdal.svg)](https://repology.org/metapackage/gdal)
+polyclipping | [![](https://img.shields.io/badge/Arch_package-n.a.-red.svg) ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/polyclipping.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/polyclipping.svg) ![](https://img.shields.io/badge/openSUSE_Tumbleed_package-n.a.-red.svg)](https://repology.org/metapackage/qt5-qtbase)
+PROJ.4 | [![Arch package](https://repology.org/badge/version-for-repo/arch/proj.svg) ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/proj.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/proj.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/proj.svg)](https://repology.org/metapackage/proj)
+Qt | [![Arch package](https://repology.org/badge/version-for-repo/arch/qt5-qtbase.svg) ![debian_testing](https://repology.org/badge/version-for-repo/debian_testing/qt5-qtbase.svg) ![fedora_rawhide](https://repology.org/badge/version-for-repo/fedora_rawhide/qt5-qtbase.svg) ![opensuse_tumbleweed](https://repology.org/badge/version-for-repo/opensuse_tumbleweed/qt5-qtbase.svg)](https://repology.org/metapackage/qt5-qtbase)
+
+Source: https://repology.org
 
 
 ### Unstable and 0.7.x releases
