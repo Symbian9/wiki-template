@@ -28,6 +28,7 @@ Source: https://repology.org/metapackage/openorienteering-mapper
 
 ### Arch Linux
 
+- [Creating packages](https://wiki.archlinux.org/index.php/Creating_packages)
 - [Arch Linux package database](https://www.archlinux.org/packages/)
 - [Arch User Repository (AUR)](https://aur.archlinux.org/packages/)
   - [Mapper in AUR](https://aur.archlinux.org/packages/openorienteering-mapper/) <br />
@@ -51,6 +52,7 @@ Source: https://repology.org/metapackage/openorienteering-mapper
 
 ### Fedora
 
+- [Fedora RPM Guide](https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/)
 - [Fedora buildsystem (Koji)](http://koji.fedoraproject.org/koji/index)
 - [Fedora packages](https://apps.fedoraproject.org/packages/)
 
