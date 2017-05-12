@@ -3,6 +3,15 @@
 
 These are statistics from Github Releases only. There are no download statistics from OBS (Linux and Windows packages).
 
+# Mapper 0.7
+
+## v0.7.0-RC3
+
+- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0-RC3/OpenOrienteering-Mapper-0.7.0-RC3-Android-armeabi-v7a.apk.svg)
+- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0-RC3/OpenOrienteering-Mapper-0.7.0-RC3-Android-x86.apk.svg)
+- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0-RC3/OpenOrienteering-Mapper-v0.7.0-RC3-macOS.dmg.svg)
+
+
 # Mapper 0.6
 
 ## v0.6.8
