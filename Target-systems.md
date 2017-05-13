@@ -100,7 +100,7 @@ macOS (aka OS X)          | 3.x    | XCode 7.0  | 5.5.1  | 6.1.3a | 4.9.2  | -.-
 openSUSE Leap 42.1        | 3.3.2  | gcc 5.2.1  | 5.5.0  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
 openSUSE Leap 42.2        | 3.5.2  | gcc 5.3.1  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.0  | OBS
 openSUSE Tumbleweed       | 3.7.1  | gcc 6.2.1  | 5.7.1  | 6.1.3a | 4.9.3  | 2.1.2  | OBS
-[Slackware](#slackware) 14.2 | 3.5.2 | gcc 5.3.0 | Qt 5.7.1 (SBo) | 6.4.2 (SBo) | 4.9.3 (SBo) | 2.1.3 (SBo) | [SlackBuilds.org](#slackware)
+[Slackware](#slackware) 14.2 | 3.5.2 | gcc 5.3.0 | Qt 5.7.1 (SBo) | 6.4.2 (SBo) | 4.9.3 (SBo) | 2.2.0 (SBo) | [SlackBuilds.org](#slackware)
 [Ubuntu](#ubuntu) 16.04   | 3.5.1  | gcc 5.4.0, gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
 [Ubuntu](#ubuntu) 16.10   | 3.5.2  | gcc 6.2.0  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.1  | OBS, [Launchpad](#ubuntu)
 Windows                   | 3.7.1  | gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  |  . .   | OBS/openSUSE Leap 42.2 with updated CMake
