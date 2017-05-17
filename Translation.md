@@ -13,7 +13,7 @@ Github: [![Open issues with label 'translations'](https://img.shields.io/github/
 [Weblate: Source strings to check](https://hosted.weblate.org/projects/openorienteering/mapper/source/)<br/>
 [Weblate: Ignored checks](https://hosted.weblate.org/checks/?project=openorienteering&ignored=true)
 
-### Next release (Mapper 0.6.x) and unstable development snapshot
+### Next release (Mapper 0.7.x) and unstable development snapshot
 
 The user interface is translated to the following languages:
 
