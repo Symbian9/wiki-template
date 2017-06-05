@@ -5,7 +5,7 @@ This is a wiki for the development of OpenOrienteering Mapper. The User Manual i
   * Notes on [[Target Systems]]
   * [[Translation]]
   * [[Coding conventions]]
-    * [C++11](Cxx11)
+    * [C++14](Cxx14)
   * [API docs](http://www.openorienteering.org/api-docs/mapper/)
     * [Code overview](http://www.openorienteering.org/api-docs/mapper/code_overview.html) 
   * [[Import-Export Features]]
@@ -14,8 +14,6 @@ This is a wiki for the development of OpenOrienteering Mapper. The User Manual i
   * [[Android]] 
   * [[Release testing]] 
   * [[Release process]] 
-  * Obsolete pages:
-    * [[Qt5]] 
 
 ## Links
 
