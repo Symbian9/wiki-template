@@ -8,9 +8,7 @@ This is a wiki for the development of OpenOrienteering Mapper. The User Manual i
     * [C++14](Cxx14)
   * [API docs](http://www.openorienteering.org/api-docs/mapper/)
     * [Code overview](http://www.openorienteering.org/api-docs/mapper/code_overview.html) 
-  * [[Import-Export Features]]
   * [[User interface design]]
-  * [[OS X]] 
   * [[Android]] 
   * [[Release testing]] 
   * [[Release process]] 
