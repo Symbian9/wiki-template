@@ -5,11 +5,17 @@ These are statistics from Github Releases only. There are no download statistics
 
 # Mapper 0.7
 
-## v0.7.0-RC3
+## v0.7.0
 
-- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0-RC3/OpenOrienteering-Mapper-0.7.0-RC3-Android-armeabi-v7a.apk.svg)
-- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0-RC3/OpenOrienteering-Mapper-0.7.0-RC3-Android-x86.apk.svg)
-- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0-RC3/OpenOrienteering-Mapper-0.7.0-RC3-macOS.dmg.svg)
+- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0/OpenOrienteering-Mapper-0.7.0-Android-armeabi-v7a.apk.svg)
+- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0/OpenOrienteering-Mapper-0.7.0-Android-x86.apk.svg)
+- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0/OpenOrienteering-Mapper-0.7.0-macOS.dmg.svg)
+
+## v0.7.0-RC4
+
+- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0-RC4/OpenOrienteering-Mapper-0.7.0-RC4-Android-armeabi-v7a.apk.svg)
+- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0-RC4/OpenOrienteering-Mapper-0.7.0-RC4-Android-x86.apk.svg)
+- ![](https://img.shields.io/github/downloads/openorienteering/Mapper/v0.7.0-RC4/OpenOrienteering-Mapper-0.7.0-RC4-macOS.dmg.svg)
 
 
 # Mapper 0.6
