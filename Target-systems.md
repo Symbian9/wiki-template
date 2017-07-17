@@ -105,6 +105,7 @@ openSUSE Tumbleweed       | 3.7.1  | gcc 6.2.1  | 5.7.1  | 6.1.3a | 4.9.3  | 2.1
 [Ubuntu](#ubuntu) 16.04   | 3.5.1  | gcc 5.4.0, gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
 [Ubuntu](#ubuntu) 16.10   | 3.5.2  | gcc 6.2.0  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.1  | OBS, [Launchpad](#ubuntu)
 Windows                   | 3.7.1  | gcc 5.3.1  | 5.6.2  | 6.1.3a | 4.9.2  | 2.1.2  | OBS/openSUSE Leap 42.2/superbuild
+FreeBSD 10.3              | 3.4.1 | clang 3.4.1 :-1: | 5.4.1 | 6.4.2 | 4.9.1 | 2.0.1 | [Port](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=214758)
 FreeBSD 11.0              | 3.8.2 | clang 3.8.0 | 5.7.1 | 6.4.2 | 4.9.3 | 2.2.1 | [Port](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=214758)
 
 * CMake < 3.1 does not support ```CMAKE_CXX_STANDARD```.
