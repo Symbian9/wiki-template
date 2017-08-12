@@ -88,7 +88,7 @@ Source: https://repology.org
 
 Target System | CMake | C++         | Qt          | Poly- clipping | Proj.4      |  GDAL       | Remark
 --------------|-------------|-------------|-------------|----------------|-------------|-------------|-------------
-[Android](Android)        | 3.7    | gcc 4.9    | 5.6.2  | 6.1.3a | 4.9.2  | 2.1.2  | local superbuild
+[Android](Android)        | 3.7    | gcc 4.9    | 5.6.2  | 6.1.3a | 4.9.3  | 2.1.2  | local superbuild
 [Arch Linux](#arch-linux) | 3.8.2  | gcc 7.1.1  | 5.9.1  | 6.4.2 | 4.9.3  | 2.2.1  | OBS, [AUR](#arch-linux)
 Debian 8.0                | 3.0.2 :-1: | gcc 4.9.2  | 5.3.2 :-1: | 6.1.3a | 4.8.0  | 1.10.1 :-1: | OBS
 Debian 9.0                | 3.7.1  | gcc 6.3.0  | 5.7.1  | 6.1.3a | 4.9.3  | 2.1.2  | OBS, [Debian](#debian)
@@ -97,14 +97,14 @@ Fedora 23                 | 3.3.2  | gcc 5.1.1  | 5.5.0  | 6.1.3a | 4.9.1  | 2.0
 [Fedora](#fedora) 24      | 3.5.2  | gcc 6.1.1  | 5.6.0  | 6.1.3a | 4.9.2  | 2.0.2  | OBS
 [Fedora](#fedora) 25      | 3.6.2  | gcc 6.2.1  | 5.7.0  | 6.1.3a | 4.9.2  | 2.1.0  | OBS
 Linux Mint 18.x (= Ubuntu 16.04) | 3.2.2  | gcc 5.2.1  | 5.5.1  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | no build
-macOS (aka OS X)          | 3.x    | XCode 7.0  | 5.5.1  | 6.1.3a | 4.9.2  | -.-.-  | local build
+macOS (aka OS X)          | 3.x    | XCode 7.0  | 5.6.2  | 6.1.3a | 4.9.3  | 2.1.2  | local superbuild
 openSUSE Leap 42.1        | 3.3.2  | gcc 5.2.1  | 5.5.0  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
 openSUSE Leap 42.2        | 3.5.2  | gcc 5.3.1  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.0  | OBS
 openSUSE Tumbleweed       | 3.7.1  | gcc 6.2.1  | 5.7.1  | 6.1.3a | 4.9.3  | 2.1.2  | OBS
 [Slackware](#slackware) 14.2 | 3.5.2 | gcc 5.3.0 | Qt 5.7.1 (SBo) | 6.4.2 (SBo) | 4.9.3 (SBo) | 2.2.1 (SBo) | [SlackBuilds.org](#slackware)
 [Ubuntu](#ubuntu) 16.04   | 3.5.1  | gcc 5.4.0, gcc 5.3.1  | 5.5.1  | 6.1.3a | 4.9.2  | 1.11.3 :-1: | OBS
 [Ubuntu](#ubuntu) 16.10   | 3.5.2  | gcc 6.2.0  | 5.6.1  | 6.1.3a | 4.9.2  | 2.1.1  | OBS, [Launchpad](#ubuntu)
-Windows                   | 3.7.1  | gcc 5.3.1  | 5.6.2  | 6.1.3a | 4.9.2  | 2.1.2  | OBS/openSUSE Leap 42.2/superbuild
+Windows                   | 3.7.1  | gcc 5.3.1  | 5.6.2  | 6.1.3a | 4.9.3  | 2.1.2  | OBS/openSUSE Leap 42.2/superbuild
 FreeBSD 10.3              | 3.4.1 | clang 3.4.1 :-1: | 5.4.1 | 6.4.2 | 4.9.1 | 2.0.1 | [Port](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=214758)
 FreeBSD 11.0              | 3.8.2 | clang 3.8.0 | 5.7.1 | 6.4.2 | 4.9.3 | 2.2.1 | [Port](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=214758)
 
