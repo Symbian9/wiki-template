@@ -90,7 +90,7 @@ Target System | CMake | C++         | Qt          | Poly- clipping | Proj.4     
 --------------|-------------|-------------|-------------|----------------|-------------|-------------|-------------
 [Android](Android)        | 3.7    | gcc 4.9    | 5.6.2  | 6.1.3a | 4.9.2  | 2.1.2  | local superbuild
 [Arch Linux](#arch-linux) | 3.8.2  | gcc 7.1.1  | 5.9.1  | 6.4.2 | 4.9.3  | 2.2.1  | OBS, [AUR](#arch-linux)
-Debian 8.0                | 3.0.2 :-1: | gcc 4.9.2  | 5.3.2  | 6.1.3a | 4.8.0  | 1.10.1 :-1: | OBS
+Debian 8.0                | 3.0.2 :-1: | gcc 4.9.2  | 5.3.2 :-1: | 6.1.3a | 4.8.0  | 1.10.1 :-1: | OBS
 Debian 9.0                | 3.7.1  | gcc 6.3.0  | 5.7.1  | 6.1.3a | 4.9.3  | 2.1.2  | OBS, [Debian](#debian)
 [Debian](#debian) testing | 3.7.1  | gcc 6.3.0  | 5.7.1  | 6.1.3a | 4.9.3  | 2.1.2  | OBS, [Debian](#debian)
 Fedora 23                 | 3.3.2  | gcc 5.1.1  | 5.5.0  | 6.1.3a | 4.9.1  | 2.0.1  | OBS
@@ -110,6 +110,7 @@ FreeBSD 11.0              | 3.8.2 | clang 3.8.0 | 5.7.1 | 6.4.2 | 4.9.3 | 2.2.1 
 
 * CMake < 3.1 does not support ```CMAKE_CXX_STANDARD```.
 * CMake < 3.2 does not support ```BYPRODUCTS``` in ```ADD_CUSTOM_TARGET```. Solved by patch.
+* Qt < 5.4 does not provide ```QTimer::singleShot(int msec, const QObject *receiver, PointerToMemberFunction method)```.
 * More providers, packages, versions: https://repology.org/
 
 ### Limited to 0.6.x releases
