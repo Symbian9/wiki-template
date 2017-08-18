@@ -19,41 +19,41 @@ The user interface is translated to the following languages:
 
 | Language | Code | State |
 | -------- | ---- | ----- |
-| Čeština (Czech) | cs | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/cd/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/cs/) |
-| Dansk (Danish)  | da | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/da/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/da/) |
-| Deutsch (German) | de | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/de/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/de/) |
-| English (plural forms only) | en | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/en/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/en/) |
-| Español de España (Spanish) | es | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/es/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/es/) |
-| Eesti (Estonian) | et | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/et/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/et/) |
-| Esperanto | eo | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/eo/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/eo/) |
-| Français (French) | fr | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fr/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/fr/) |
-| עברית (Hebrew, right-to-left) | he | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/he/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/he/) |
-| Bahasa Indonesia (Indonesian) | id | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/id/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/id/) |
-| Italiano (Italian) | it | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/it/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/it/) |
-| Latviešu (Latvian) | lv | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/lv/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/lv/) |
-| Magyar (Hungarian) | hu | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/hu/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/hu/) |
-| Nederlands (Dutch) | nl | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/nl/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/nl/) |
-| Norsk bokmål (Norwegian Bokmål) | nb | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/nb/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/nb/) |
-| Polski (Polish) | pl | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/pl/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/pl/) |
-| Portuguêse do Brazil (Brazil) | pt_BR | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/pt_BR/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/pt_BR/) |
-| Русский (Russian) | ru | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/ru/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/ru/) |
-| Suomi (Finnish) | fi | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fi/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/fi/) |
-| Svenska (Swedish) | sv | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/sv/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/sv/) |
-| Українська (Ukrainian) | uk | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/uk/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/uk/) |
-| 日本語 (Japanese) | ja | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/ja/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/ja/) |
-| 中文 (Chinese) | zh_Hans_CN | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/zh_Hans/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/zh_Hans/) |
+| Čeština (Czech) | cs | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/cd/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/cs/) |
+| Dansk (Danish)  | da | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/da/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/da/) |
+| Deutsch (German) | de | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/de/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/de/) |
+| English (plural forms only) | en | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/en/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/en/) |
+| Español de España (Spanish) | es | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/es/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/es/) |
+| Eesti (Estonian) | et | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/et/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/et/) |
+| Esperanto | eo | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/eo/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/eo/) |
+| Français (French) | fr | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fr/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/fr/) |
+| עברית (Hebrew, right-to-left) | he | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/he/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/he/) |
+| Bahasa Indonesia (Indonesian) | id | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/id/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/id/) |
+| Italiano (Italian) | it | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/it/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/it/) |
+| Latviešu (Latvian) | lv | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/lv/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/lv/) |
+| Magyar (Hungarian) | hu | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/hu/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/hu/) |
+| Nederlands (Dutch) | nl | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/nl/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/nl/) |
+| Norsk bokmål (Norwegian Bokmål) | nb | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/nb/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/nb/) |
+| Polski (Polish) | pl | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/pl/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/pl/) |
+| Portuguêse do Brazil (Brazil) | pt_BR | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/pt_BR/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/pt_BR/) |
+| Русский (Russian) | ru | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/ru/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/ru/) |
+| Suomi (Finnish) | fi | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fi/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/fi/) |
+| Svenska (Swedish) | sv | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/sv/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/sv/) |
+| Українська (Ukrainian) | uk | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/uk/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/uk/) |
+| 日本語 (Japanese) | ja | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/ja/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/ja/) |
+| 中文 (Chinese) | zh_Hans_CN | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/zh_Hans/mapper/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/mapper/zh_Hans/) |
 
 Map symbols are translated to the following languages:
 
 | Language | Code | State |
 | -------- | ---- | ----- |
-| Čeština (Czech) | cs | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/cd/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/cs/) |
-| Deutsch (German) | de | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/de/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/de/) |
-| Français (French) | fr | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fr/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/fr/) |
-| Русский (Russian) | ru | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/ru/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/ru/) |
-| Suomi (Finnish) | fi | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fi/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/fi/) |
-| Svenska (Swedish) | sv | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/sv/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/sv/) |
-| Українська (Ukrainian) | uk | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/uk/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/uk/) |
+| Čeština (Czech) | cs | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/cd/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/cs/) |
+| Deutsch (German) | de | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/de/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/de/) |
+| Français (French) | fr | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fr/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/fr/) |
+| Русский (Russian) | ru | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/ru/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/ru/) |
+| Suomi (Finnish) | fi | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fi/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/fi/) |
+| Svenska (Swedish) | sv | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/sv/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/sv/) |
+| Українська (Ukrainian) | uk | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/uk/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/uk/) |
 
 ## Information for Translators
 
