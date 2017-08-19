@@ -48,8 +48,11 @@ Map symbols are translated to the following languages:
 | Language | Code | State |
 | -------- | ---- | ----- |
 | Čeština (Czech) | cs | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/cd/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/cs/) |
+| Dansk (Danish) | da | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/da/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/da/) |
 | Deutsch (German) | de | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/de/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/de/) |
+| Esperanto | eo | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/eo/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/eo/) |
 | Français (French) | fr | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fr/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/fr/) |
+| Nederlands (Dutch) | nl | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/nl/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/nl/) |
 | Русский (Russian) | ru | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/ru/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/ru/) |
 | Suomi (Finnish) | fi | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/fi/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/fi/) |
 | Svenska (Swedish) | sv | [![Translation status](https://hosted.weblate.org/widgets/openorienteering/sv/map-symbols/svg-badge.svg)](https://hosted.weblate.org/projects/openorienteering/map-symbols/sv/) |
