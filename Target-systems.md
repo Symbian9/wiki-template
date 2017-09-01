@@ -111,6 +111,7 @@ FreeBSD 11.0              | 3.8.2 | clang 3.8.0 | 5.7.1 | 6.4.2 | 4.9.3 | 2.2.1 
 * CMake < 3.1 does not support ```CMAKE_CXX_STANDARD```.
 * CMake < 3.2 does not support ```BYPRODUCTS``` in ```ADD_CUSTOM_TARGET```. Solved by patch.
 * Qt < 5.4 does not provide ```QTimer::singleShot(int msec, const QObject *receiver, PointerToMemberFunction method)```.
+* Qt < 5.4 does not provide ```qUtf8Printable(const QString &)```.
 * gcc < 5.0 has incomplete support for C++14.
 * gcc 4.9 for Android has incomplete headers (e.g. std::round).
 * More providers, packages, versions: https://repology.org/
@@ -127,6 +128,7 @@ Ubuntu 14.04 :-1: | 2.8.12 :-1: | gcc 4.8.2 :-1: | 5.2.1 :-1: | 6.1.3a | 4.8.0  
 * gcc 4.8 strictly implements a "bug in the standard" which forces the creation of temporaries when using uniform initialization in member initialization and thus leading to crashes when accessing these temporaries later (cf. http://stackoverflow.com/questions/25561387/spurious-warning-about-binding-temporary-to-reference-member-in-constructor), observed for [ReplaceSymbolSetOperation constructor](https://github.com/OpenOrienteering/mapper/blob/master/src/gui/symbols/replace_symbol_set_dialog.cpp#L51).
 * Qt < 5.3 needs extra treatment in some places.
 * Qt < 5.4 does not provide ```QTimer::singleShot(int msec, const QObject *receiver, PointerToMemberFunction method)```.
+* Qt < 5.4 does not provide ```qUtf8Printable(const QString &)```.
 * CMake < 3.0 needs a ```windres``` workaround in ```src/CMakeLists.txt``` when locally cross-compiling for windows.
 * CMake < 3.1 does not support ```CMAKE_CXX_STANDARD```.
 * CMake < 3.2 does not support ```BYPRODUCTS``` in ```ADD_CUSTOM_TARGET```.
